@@ -19,8 +19,28 @@
 	Возврат ПутьКБиблиотеке;
 КонецФункции
 
+Функция ПолучитьАдресКомпонентыHighligthjs() Экспорт
+	ДвоичныеДанные=ПолучитьОбщийМакет("РМ_highligthjs");
+	
+	ИмяВременногоФайла=ПолучитьИмяВременногоФайла("js");
+	ДвоичныеДанные.Записать(ИмяВременногоФайла);
+	
+	Текст=Новый ТекстовыйДокумент;
+	Текст.Прочитать(ИмяВременногоФайла);
+	
+	ПутьКБиблиотеке=ПоместитьВоВременноеХранилище(Текст.ПолучитьТекст());
+	
+	Попытка
+		УдалитьФайлы(ИмяВременногоФайла);
+	Исключение
+	КонецПопытки;
+	
+	Возврат ПутьКБиблиотеке;
+КонецФункции
+
 Функция СформироватьТекстHTMLДляТекстаMarkdown() Экспорт
 	ПутьКБиблиотеке=ПолучитьАдресКомпонентыShowodwn();
+	ПутьКРазукрашивателю=ПолучитьАдресКомпонентыHighligthjs();
 	СтильCSS=
 	"
 	|h2, .wiki h1 {font-size: 20px;}
@@ -102,14 +122,88 @@
 	|div.wiki img {vertical-align:middle; max-width:100%;}
 	|blockquote { font-style: italic; border-left: 3px solid #e0e0e0; padding-left: 0.6em; margin-left: 0;}
 	|blockquote blockquote { margin-left: 0;}
+	|
+	|
+	|/*
+	|Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+	|*/
+	|.hljs {
+	|  display: block;
+	|  overflow-x: auto;
+	|  padding: 0.5em;
+	|  background: white;
+	|  color: black;
+	|}
+	|
+	|.hljs-comment,
+	|.hljs-quote,
+	|.hljs-variable {
+	|  color: #008000;
+	|}
+	|
+	|.hljs-keyword,
+	|.hljs-selector-tag,
+	|.hljs-built_in,
+	|.hljs-name,
+	|.hljs-tag {
+	|  color: #00f;
+	|}
+	|
+	|.hljs-string,
+	|.hljs-title,
+	|.hljs-section,
+	|.hljs-attribute,
+	|.hljs-literal,
+	|.hljs-template-tag,
+	|.hljs-template-variable,
+	|.hljs-type,
+	|.hljs-addition {
+	|  color: #a31515;
+	|}
+	|
+	|.hljs-deletion,
+	|.hljs-selector-attr,
+	|.hljs-selector-pseudo,
+	|.hljs-meta {
+	|  color: #2b91af;
+	|}
+	|
+	|.hljs-doctag {
+	|  color: #808080;
+	|}
+	|
+	|.hljs-attr {
+	|  color: #f00;
+	|}
+	|
+	|.hljs-symbol,
+	|.hljs-bullet,
+	|.hljs-link {
+	|  color: #00b0e8;
+	|}
+	|
+	|
+	|.hljs-emphasis {
+	|  font-style: italic;
+	|}
+	|
+	|.hljs-strong {
+	|  font-weight: bold;
+	|}
+	
 
 	|";
+	
+	
 
 	ТекстHTML=
 	"<html>
 	|<head>
+	//highlight
+	|	<script>"+ПолучитьИзВременногоХранилища(ПутьКРазукрашивателю)+"</script>
 	|    <script>"+ПолучитьИзВременногоХранилища(ПутьКБиблиотеке)+"</script>
 	|    <script>
+	|		 
 	|        var markdownTexts={};
 	|		 var converter = new showdown.Converter();
 	|	     converter.setFlavor('github');
@@ -129,6 +223,7 @@
 	|
 	|           newdiv.innerHTML = converter.makeHtml(text);
 	|
+	|			hljs.highlightBlock(newdiv);
 	|           return newdiv;
 	|      	 }
 	|        
@@ -141,11 +236,13 @@
 	|                    var markText = markdownTexts[key];
 	|                    
 	|                	 var newdiv=convertOneText(key,markText);
+	|						
 	|                    container.appendChild(newdiv);
 	|                }
 	|            }
 	|
 	|        }
+	|
 	|    </script>
 	|    <style>
 	|    	html { 

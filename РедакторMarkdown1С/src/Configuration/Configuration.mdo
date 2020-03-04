@@ -47,6 +47,7 @@
   <commonPictures>CommonPicture.РМ_СписокЗадач</commonPictures>
   <commonPictures>CommonPicture.РМ_Таблица</commonPictures>
   <commonTemplates>CommonTemplate.РМ_showdown</commonTemplates>
+  <commonTemplates>CommonTemplate.РМ_highligthjs</commonTemplates>
   <commonModules>CommonModule.РМ_MarkdownКлиент</commonModules>
   <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>
   <commonModules>CommonModule.РМ_MarkdownКлиентСервер</commonModules>
