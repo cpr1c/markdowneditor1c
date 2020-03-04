@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db1d3c18-6219-423f-a4cd-37d38ad5df23">
+  <name>РедакторMarkdown1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор markdown1 С</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="8fd59b6a-bb46-49ff-86ef-c278b86306ff"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="cd91c8b1-147d-4bf2-8909-9237987c34de"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a2572d21-0e6d-4db0-972b-7421d42b9e5c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c08ac2c0-2a89-4e72-a0a1-89ead1a651cd"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="e75e51e2-1364-4051-a822-968a96fdbf66"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="af7b2027-8f42-44ca-a451-c710404d29f9"/>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="97c3ad4e-ce55-4852-a06e-186f08dac361">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+</mdclass:Configuration>
