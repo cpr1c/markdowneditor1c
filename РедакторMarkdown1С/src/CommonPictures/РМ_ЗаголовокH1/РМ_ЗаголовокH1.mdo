@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7adf2fc8-5e13-11ea-a89e-e86a6452d1f2">
-  <name>РМ_MDДобавитьЗаголовки</name>
+  <name>РМ_ЗаголовокH1</name>
   <synonym>
     <key>ru</key>
-    <value>Р м MDДобавить заголовки</value>
+    <value>Р м заголовок h1</value>
   </synonym>
 </mdclass:CommonPicture>

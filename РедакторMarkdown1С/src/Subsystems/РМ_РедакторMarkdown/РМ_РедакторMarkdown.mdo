@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4aea0b85-00c5-4656-bdab-fa83caaa2e90">
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4aea0b85-00c5-4656-bdab-fa83caaa2e90">
   <name>РМ_РедакторMarkdown</name>
   <synonym>
     <key>ru</key>
@@ -7,6 +7,9 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РМ_Markdown</picture>
+  </picture>
   <content>DataProcessor.РМ_РедакторMarkdownПример</content>
   <content>CommonModule.РМ_MarkdownСервер</content>
   <content>CommonModule.РМ_MarkdownКлиент</content>
@@ -14,11 +17,18 @@
   <content>CommonTemplate.РМ_showdown</content>
   <content>CommonPicture.РМ_Скрепка</content>
   <content>CommonPicture.РМ_MDВставитьКартинкуИзБуфера</content>
-  <content>CommonPicture.РМ_MDДобавитьЗаголовки</content>
+  <content>CommonPicture.РМ_ЗаголовокH1</content>
   <content>CommonPicture.РМ_MDЖирный</content>
   <content>CommonPicture.РМ_MDЗачеркнутый</content>
   <content>CommonPicture.РМ_MDКурсив</content>
   <content>CommonPicture.РМ_MDМаркерыСписок</content>
   <content>CommonPicture.РМ_MDНумерованныйСписок</content>
   <content>CommonPicture.РМ_MDЦитата</content>
+  <content>CommonPicture.РМ_ЗаголовокH2</content>
+  <content>CommonPicture.РМ_ЗаголовокH3</content>
+  <content>CommonPicture.РМ_Markdown</content>
+  <content>CommonPicture.РМ_Ссылка</content>
+  <content>CommonPicture.РМ_ПрограммныйКод</content>
+  <content>CommonPicture.РМ_СписокЗадач</content>
+  <content>CommonPicture.РМ_Таблица</content>
 </mdclass:Subsystem>

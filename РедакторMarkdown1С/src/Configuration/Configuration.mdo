@@ -32,13 +32,20 @@
   <subsystems>Subsystem.РМ_РедакторMarkdown</subsystems>
   <commonPictures>CommonPicture.РМ_Скрепка</commonPictures>
   <commonPictures>CommonPicture.РМ_MDВставитьКартинкуИзБуфера</commonPictures>
-  <commonPictures>CommonPicture.РМ_MDДобавитьЗаголовки</commonPictures>
+  <commonPictures>CommonPicture.РМ_ЗаголовокH1</commonPictures>
+  <commonPictures>CommonPicture.РМ_ЗаголовокH2</commonPictures>
+  <commonPictures>CommonPicture.РМ_ЗаголовокH3</commonPictures>
   <commonPictures>CommonPicture.РМ_MDЖирный</commonPictures>
   <commonPictures>CommonPicture.РМ_MDЗачеркнутый</commonPictures>
   <commonPictures>CommonPicture.РМ_MDКурсив</commonPictures>
   <commonPictures>CommonPicture.РМ_MDМаркерыСписок</commonPictures>
   <commonPictures>CommonPicture.РМ_MDНумерованныйСписок</commonPictures>
   <commonPictures>CommonPicture.РМ_MDЦитата</commonPictures>
+  <commonPictures>CommonPicture.РМ_Markdown</commonPictures>
+  <commonPictures>CommonPicture.РМ_Ссылка</commonPictures>
+  <commonPictures>CommonPicture.РМ_ПрограммныйКод</commonPictures>
+  <commonPictures>CommonPicture.РМ_СписокЗадач</commonPictures>
+  <commonPictures>CommonPicture.РМ_Таблица</commonPictures>
   <commonTemplates>CommonTemplate.РМ_showdown</commonTemplates>
   <commonModules>CommonModule.РМ_MarkdownКлиент</commonModules>
   <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>
