@@ -30,6 +30,15 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.РМ_РедакторMarkdown</subsystems>
+  <commonPictures>CommonPicture.РМ_Скрепка</commonPictures>
+  <commonPictures>CommonPicture.РМ_MDВставитьКартинкуИзБуфера</commonPictures>
+  <commonPictures>CommonPicture.РМ_MDДобавитьЗаголовки</commonPictures>
+  <commonPictures>CommonPicture.РМ_MDЖирный</commonPictures>
+  <commonPictures>CommonPicture.РМ_MDЗачеркнутый</commonPictures>
+  <commonPictures>CommonPicture.РМ_MDКурсив</commonPictures>
+  <commonPictures>CommonPicture.РМ_MDМаркерыСписок</commonPictures>
+  <commonPictures>CommonPicture.РМ_MDНумерованныйСписок</commonPictures>
+  <commonPictures>CommonPicture.РМ_MDЦитата</commonPictures>
   <commonTemplates>CommonTemplate.РМ_showdown</commonTemplates>
   <commonModules>CommonModule.РМ_MarkdownКлиент</commonModules>
   <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>

@@ -10,4 +10,14 @@
     <value>Редактор markdown пример</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РМ_РедакторMarkdownПример.Form.Форма</defaultForm>
+  <forms uuid="a42a8230-5e11-11ea-a89e-e86a6452d1f2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

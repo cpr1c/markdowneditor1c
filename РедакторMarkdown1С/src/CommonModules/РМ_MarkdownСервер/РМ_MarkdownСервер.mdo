@@ -6,4 +6,5 @@
     <value>Р м markdown сервер</value>
   </synonym>
   <server>true</server>
+  <serverCall>true</serverCall>
 </mdclass:CommonModule>

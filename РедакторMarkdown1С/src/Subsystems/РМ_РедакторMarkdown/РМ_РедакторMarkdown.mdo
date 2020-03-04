@@ -7,4 +7,18 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.РМ_РедакторMarkdownПример</content>
+  <content>CommonModule.РМ_MarkdownСервер</content>
+  <content>CommonModule.РМ_MarkdownКлиент</content>
+  <content>CommonModule.РМ_MarkdownКлиентСервер</content>
+  <content>CommonTemplate.РМ_showdown</content>
+  <content>CommonPicture.РМ_Скрепка</content>
+  <content>CommonPicture.РМ_MDВставитьКартинкуИзБуфера</content>
+  <content>CommonPicture.РМ_MDДобавитьЗаголовки</content>
+  <content>CommonPicture.РМ_MDЖирный</content>
+  <content>CommonPicture.РМ_MDЗачеркнутый</content>
+  <content>CommonPicture.РМ_MDКурсив</content>
+  <content>CommonPicture.РМ_MDМаркерыСписок</content>
+  <content>CommonPicture.РМ_MDНумерованныйСписок</content>
+  <content>CommonPicture.РМ_MDЦитата</content>
 </mdclass:Subsystem>
