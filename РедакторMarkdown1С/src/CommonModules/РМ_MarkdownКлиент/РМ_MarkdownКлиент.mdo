@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb699bd8-c25b-11e9-0f90-64809943c784">
-  <name>РедактированиеКомментарияКлиент</name>
+  <name>РМ_MarkdownКлиент</name>
   <synonym>
     <key>ru</key>
-    <value>Редактирование комментария клиент</value>
+    <value>Markdown клиент</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f29e431-3617-449d-93ba-2fed6c0da920">
+  <producedTypes>
+    <objectType typeId="1143f870-a8ad-41fc-ae11-a46770fe40bb" valueTypeId="98286659-48eb-49d8-89f6-98f32e046f32"/>
+    <managerType typeId="5c8770c8-20d6-4862-94b3-f123262bd3d6" valueTypeId="e6d81d73-65df-4bc9-9494-930914ddcdda"/>
+  </producedTypes>
+  <name>РМ_РедакторMarkdownПример</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор markdown пример</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

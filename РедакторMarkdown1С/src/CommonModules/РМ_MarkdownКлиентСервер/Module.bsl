@@ -1,72 +1,8 @@
-Функция СформироватьТекстHTMLДляТекстаMarkdown() Экспорт
-	ПутьКБиблиотеке=MarkdownСерверПовтИсп.ПолучитьАдресКомпонентыShowodwn();
-	
-	ТекстHTML=
-	"<html>
-	|<head>
-	|    <script>"+ПолучитьИзВременногоХранилища(ПутьКБиблиотеке)+"</script>
-	|    <script>
-	|        var markdownTexts={};
-	|		 var converter = new showdown.Converter();
-	|	     converter.setFlavor('github');
-	|
-	|	     function clearTexts(){
-	|            markdownTexts={};
-	|        }
-	|
-	|        function addText(key, text){
-	|            markdownTexts[key]=text;
-	|        }
-	|	     function convertOneText(key,text){
-	|           
-	|			 var newdiv = document.createElement('div');
-	|            newdiv.className = 'wiki';
-	|            newdiv.id = key;
-	|
-	|           newdiv.innerHTML = converter.makeHtml(text);
-	|
-	|           return newdiv;
-	|      	 }
-	|        
-	|        function markdownConvert(){
-	|            var container=document.getElementById('wiki-container');
-	|            container.innerHTML='';
-	|
-	|            for (var key in markdownTexts) {
-	|                if (markdownTexts.hasOwnProperty(key)) {
-	|                    var markText = markdownTexts[key];
-	|                    
-	|                	 var newdiv=convertOneText(key,markText);
-	|                    container.appendChild(newdiv);
-	|                }
-	|            }
-	|
-	|        }
-	|    </script>
-	|    <style>
-	|    	html { 
-	|			word-break: break-all;
-	|    	}
-	|    </style>	
-	|	 
-	|</head>
-	|    
-	|<body>
-	|    <div id=""wiki-container""></div>
-	|    <button id=""interactionButton"" style=""display: none"">Кнопка взаимодействия</button>
-	|</body>
-	|
-	|    
-	|</html>
-	|";
-	
-	Возврат ТекстHTML;
-КонецФункции
 
 Функция СформироватьТекстHTMLДляПредставленияИсторииЗадачи() Экспорт
-	ПутьКБиблиотеке=MarkdownСерверПовтИсп.ПолучитьАдресКомпонентыShowodwn();
-	//ПутьКБиблиотеке="https://cdn.jsdelivr.net/npm/showdown@1.9.0/dist/showdown.min.js";
-	//ТекстFontAvesome=MarkdownСерверПовтИсп.ПолучитьТекстКомпонентыFontAvesome();
+	ПутьКБиблиотеке=РМ_MarkdownСервер.ПолучитьАдресКомпонентыShowodwn();
+	//ПутьКБиблиотеке="https://cdn.jsdelivr.net/npm/РМ_showdown@1.9.0/dist/РМ_showdown.min.js";
+	//ТекстFontAvesome=РМ_MarkdownСервер.ПолучитьТекстКомпонентыFontAvesome();
 	
 	МЫло="levkin_s@cprit.ru";
 	АдресГраватара="http://www.gravatar.com/avatar/758c6388a3ec9a2e7ca320047727ba57?size=48";//"https://www.gravatar.com/"+РедактированиеКомментарияСервер.КонтрольнаяСуммаСтрокой(МЫло,"MD5");

@@ -30,8 +30,9 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.РМ_РедакторMarkdown</subsystems>
-  <commonTemplates>CommonTemplate.showdown</commonTemplates>
-  <commonModules>CommonModule.РедактированиеКомментарияКлиент</commonModules>
-  <commonModules>CommonModule.MarkdownСерверПовтИсп</commonModules>
-  <commonModules>CommonModule.MarkdownКлиентСервер</commonModules>
+  <commonTemplates>CommonTemplate.РМ_showdown</commonTemplates>
+  <commonModules>CommonModule.РМ_MarkdownКлиент</commonModules>
+  <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>
+  <commonModules>CommonModule.РМ_MarkdownКлиентСервер</commonModules>
+  <dataProcessors>DataProcessor.РМ_РедакторMarkdownПример</dataProcessors>
 </mdclass:Configuration>
