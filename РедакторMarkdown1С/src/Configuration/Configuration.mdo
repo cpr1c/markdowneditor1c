@@ -29,4 +29,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.РМ_РедакторMarkdown</subsystems>
+  <commonTemplates>CommonTemplate.showdown</commonTemplates>
+  <commonModules>CommonModule.РедактированиеКомментарияКлиент</commonModules>
+  <commonModules>CommonModule.MarkdownСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.MarkdownКлиентСервер</commonModules>
 </mdclass:Configuration>
