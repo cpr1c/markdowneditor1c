@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd1be5d5-53e6-488f-be01-e342036d660a">
+  <name>РМ_ВариантыПодсветки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Р м варианты подсветки</value>
+  </synonym>
+</mdclass:CommonTemplate>

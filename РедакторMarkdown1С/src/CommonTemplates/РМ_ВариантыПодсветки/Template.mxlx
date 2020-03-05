@@ -1,0 +1,10421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>2</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вариант подсветки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Стиль</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>1</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>vs2015</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+ * Visual Studio 2015 dark style
+ * Author: Nicolas LLOBERA &lt;nllobera@gmail.com&gt;
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1E1E1E;
+  color: #DCDCDC;
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol,
+.hljs-name {
+  color: #569CD6;
+}
+.hljs-link {
+  color: #569CD6;
+  text-decoration: underline;
+}
+
+.hljs-built_in,
+.hljs-type {
+  color: #4EC9B0;
+}
+
+.hljs-number,
+.hljs-class {
+  color: #B8D7A3;
+}
+
+.hljs-string,
+.hljs-meta-string {
+  color: #D69D85;
+}
+
+.hljs-regexp,
+.hljs-template-tag {
+  color: #9A5334;
+}
+
+.hljs-subst,
+.hljs-function,
+.hljs-title,
+.hljs-params,
+.hljs-formula {
+  color: #DCDCDC;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #57A64A;
+  font-style: italic;
+}
+
+.hljs-doctag {
+  color: #608B4E;
+}
+
+.hljs-meta,
+.hljs-meta-keyword,
+.hljs-tag {
+  color: #9B9B9B;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #BD63C5;
+}
+
+.hljs-attr,
+.hljs-attribute,
+.hljs-builtin-name {
+  color: #9CDCFE;
+}
+
+.hljs-section {
+  color: gold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/*.hljs-code {
+  font-family:'Monospace';
+}*/
+
+.hljs-bullet,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #D7BA7D;
+}
+
+.hljs-addition {
+  background-color: #144212;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #600;
+  display: inline-block;
+  width: 100%;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>googlecode</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Google Code style (c) Aahan Krish &lt;geekpanth3r@gmail.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #800;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-title,
+.hljs-name {
+  color: #008;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #660;
+}
+
+.hljs-string,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-regexp {
+  color: #080;
+}
+
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-meta,
+.hljs-number,
+.hljs-link {
+  color: #066;
+}
+
+.hljs-title,
+.hljs-doctag,
+.hljs-type,
+.hljs-attr,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params {
+  color: #606;
+}
+
+.hljs-attribute,
+.hljs-subst {
+  color: #000;
+}
+
+.hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #9B703F
+}
+
+.hljs-addition {
+  background-color: #baeeba;
+}
+
+.hljs-deletion {
+  background-color: #ffc8bd;
+}
+
+.hljs-doctag,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>purebasic</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+PureBASIC native IDE style ( version 1.0 - April 2016 )
+
+by Tristano Ajmone &lt;tajmone@gmail.com&gt;
+
+Public Domain
+
+NOTE_1:	PureBASIC code syntax highlighting only applies the following classes:
+			.hljs-comment
+			.hljs-function
+			.hljs-keywords
+			.hljs-string
+			.hljs-symbol
+
+		Other classes are added here for the benefit of styling other languages with the look and feel of PureBASIC native IDE style.
+		If you need to customize a stylesheet for PureBASIC only, remove all non-relevant classes -- PureBASIC-related classes are followed by
+		a "--- used for PureBASIC ... ---" comment on same line.
+
+NOTE_2:	Color names provided in comments were derived using "Name that Color" online tool:
+			http://chir.ag/projects/name-that-color
+*/
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	padding: 0.5em;
+	background: #FFFFDF; /* Half and Half (approx.) */
+/* --- Uncomment to add PureBASIC native IDE styled font!
+	font-family: Consolas;
+*/
+}
+
+.hljs, /* --- used for PureBASIC base color --- */
+.hljs-type,  /* --- used for PureBASIC Procedures return type --- */
+.hljs-function, /* --- used for wrapping PureBASIC Procedures definitions --- */
+.hljs-name,
+.hljs-number,
+.hljs-attr,
+.hljs-params,
+.hljs-subst {
+	color: #000000; /* Black */
+}
+
+.hljs-comment, /* --- used for PureBASIC Comments --- */
+.hljs-regexp,
+.hljs-section,
+.hljs-selector-pseudo,
+.hljs-addition {
+	color: #00AAAA; /* Persian Green (approx.) */
+}
+
+.hljs-title, /* --- used for PureBASIC Procedures Names --- */
+.hljs-tag,
+.hljs-variable,
+.hljs-code  {
+	color: #006666; /* Blue Stone (approx.) */
+}
+
+.hljs-keyword, /* --- used for PureBASIC Keywords --- */
+.hljs-class,
+.hljs-meta-keyword,
+.hljs-selector-class,
+.hljs-built_in,
+.hljs-builtin-name {
+	color: #006666; /* Blue Stone (approx.) */
+	font-weight: bold;
+}
+
+.hljs-string, /* --- used for PureBASIC Strings --- */
+.hljs-selector-attr {
+	color: #0080FF; /* Azure Radiance (approx.) */
+}
+
+.hljs-symbol, /* --- used for PureBASIC Constants --- */
+.hljs-link,
+.hljs-deletion,
+.hljs-attribute {
+	color: #924B72; /* Cannon Pink (approx.) */
+}
+
+.hljs-meta,
+.hljs-literal,
+.hljs-selector-id {
+	color: #924B72; /* Cannon Pink (approx.) */
+	font-weight: bold;
+}
+
+.hljs-strong,
+.hljs-name {
+	font-weight: bold;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>shades-of-purple</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/**
+ * Shades of Purple Theme — for Highlightjs.
+ *
+ * @author (c) Ahmad Awais &lt;https://twitter.com/mrahmadawais/&gt;
+ * @link GitHub Repo → https://github.com/ahmadawais/Shades-of-Purple-HighlightJS
+ * @version 1.5.0
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  /* Custom font is optional */
+  /* font-family: 'Operator Mono', 'Fira Code', 'Menlo', 'Monaco', 'Courier New', 'monospace';  */
+  padding: 0.5em;
+  background: #2d2b57;
+  font-weight: normal;
+}
+
+.hljs-title {
+  color: #fad000;
+  font-weight: normal;
+}
+
+.hljs-name {
+  color: #a1feff;
+}
+
+.hljs-tag {
+  color: #ffffff;
+}
+
+.hljs-attr {
+  color: #f8d000;
+  font-style: italic;
+}
+
+.hljs-built_in,
+.hljs-selector-tag,
+.hljs-section {
+  color: #fb9e00;
+}
+
+.hljs-keyword {
+  color: #fb9e00;
+}
+
+.hljs,
+.hljs-subst {
+  color: #e3dfff;
+}
+
+.hljs-string,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-code,
+.hljs-regexp,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-template-tag,
+.hljs-quote,
+.hljs-deletion {
+  color: #4cd213;
+}
+
+.hljs-meta,
+.hljs-meta-string {
+  color: #fb9e00;
+}
+
+.hljs-comment {
+  color: #ac65ff;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-name,
+.hljs-strong {
+  font-weight: normal;
+}
+
+.hljs-literal,
+.hljs-number {
+  color: #fa658d;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>5</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>sunburst</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Sunburst-like style (c) Vasily Polovnyov &lt;vast@whiteants.net&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #aeaeae;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-type {
+  color: #e28964;
+}
+
+.hljs-string {
+  color: #65b042;
+}
+
+.hljs-subst {
+  color: #daefa3;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #e9c062;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-tag,
+.hljs-name {
+  color: #89bdff;
+}
+
+.hljs-class .hljs-title,
+.hljs-doctag {
+  text-decoration: underline;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-number {
+  color: #3387cc;
+}
+
+.hljs-params,
+.hljs-variable,
+.hljs-template-variable {
+  color: #3e87e3;
+}
+
+.hljs-attribute {
+  color: #cda869;
+}
+
+.hljs-meta {
+  color: #8996a8;
+}
+
+.hljs-formula {
+  background-color: #0e2231;
+  color: #f8f8f8;
+  font-style: italic;
+}
+
+.hljs-addition {
+  background-color: #253b22;
+  color: #f8f8f8;
+}
+
+.hljs-deletion {
+  background-color: #420e09;
+  color: #f8f8f8;
+}
+
+.hljs-selector-class {
+  color: #9b703f;
+}
+
+.hljs-selector-id {
+  color: #8b98ab;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>zenburn</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov &lt;voldmar@voldmar.ru&gt;
+based on dark.css by Ivan Sagalaev
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+  color: #dcdcdc;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-tag {
+  color: #e3ceab;
+}
+
+.hljs-template-tag {
+  color: #dcdcdc;
+}
+
+.hljs-number {
+  color: #8cd0d3;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute {
+  color: #efdcbc;
+}
+
+.hljs-literal {
+  color: #efefaf;
+}
+
+.hljs-subst {
+  color: #8f8f8f;
+}
+
+.hljs-title,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-section,
+.hljs-type {
+  color: #efef8f;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #dca3a3;
+}
+
+.hljs-deletion,
+.hljs-string,
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #cc9393;
+}
+
+.hljs-addition,
+.hljs-comment,
+.hljs-quote,
+.hljs-meta {
+  color: #7f9f7f;
+}
+
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>monokai</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #272822;
+  color: #ddd;
+}
+
+.hljs-tag,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-strong,
+.hljs-name {
+  color: #f92672;
+}
+
+.hljs-code {
+  color: #66d9ef;
+}
+
+.hljs-class .hljs-title {
+  color: white;
+}
+
+.hljs-attribute,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-link {
+  color: #bf79db;
+}
+
+.hljs-string,
+.hljs-bullet,
+.hljs-subst,
+.hljs-title,
+.hljs-section,
+.hljs-emphasis,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #a6e22e;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  color: #75715e;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-selector-id {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-seaside-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Seaside Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Seaside Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #809980;
+}
+
+/* Atelier-Seaside Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #e6193c;
+}
+
+/* Atelier-Seaside Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #87711d;
+}
+
+/* Atelier-Seaside Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #29a329;
+}
+
+/* Atelier-Seaside Blue */
+.hljs-title,
+.hljs-section {
+  color: #3d62f5;
+}
+
+/* Atelier-Seaside Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #ad2bee;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #131513;
+  color: #8ca68c;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-plateau-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Plateau Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #7e7777;
+}
+
+/* Atelier-Plateau Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #ca4949;
+}
+
+/* Atelier-Plateau Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #b45a3c;
+}
+
+/* Atelier-Plateau Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #4b8b8b;
+}
+
+/* Atelier-Plateau Blue */
+.hljs-title,
+.hljs-section {
+  color: #7272ca;
+}
+
+/* Atelier-Plateau Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #8464c4;
+}
+
+.hljs-deletion,
+.hljs-addition {
+  color: #1b1818;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #ca4949;
+}
+
+.hljs-addition {
+  background-color: #4b8b8b;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #1b1818;
+  color: #8a8585;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>idea</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Intellij Idea-like styling (c) Vasily Polovnyov &lt;vast@whiteants.net&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #000;
+  background: #fff;
+}
+
+.hljs-subst,
+.hljs-title {
+  font-weight: normal;
+  color: #000;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #808080;
+  font-style: italic;
+}
+
+.hljs-meta {
+  color: #808000;
+}
+
+.hljs-tag {
+  background: #efefef;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-literal,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-type,
+.hljs-selector-id,
+.hljs-selector-class {
+  font-weight: bold;
+  color: #000080;
+}
+
+.hljs-attribute,
+.hljs-number,
+.hljs-regexp,
+.hljs-link {
+  font-weight: bold;
+  color: #0000ff;
+}
+
+.hljs-number,
+.hljs-regexp,
+.hljs-link {
+  font-weight: normal;
+}
+
+.hljs-string {
+  color: #008000;
+  font-weight: bold;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-formula {
+  color: #000;
+  background: #d0eded;
+  font-style: italic;
+}
+
+.hljs-doctag {
+  text-decoration: underline;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #660e7a;
+}
+
+.hljs-addition {
+  background: #baeeba;
+}
+
+.hljs-deletion {
+  background: #ffc8bd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>codepen-embed</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+  codepen.io Embed Theme
+  Author: Justin Perry &lt;http://github.com/ourmaninamsterdam&gt;
+  Original theme - https://github.com/chriskempson/tomorrow-theme
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+  color: #fff;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #777;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-regexp,
+.hljs-meta,
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-params,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-deletion {
+  color: #ab875d;
+}
+
+.hljs-section,
+.hljs-title,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-type,
+.hljs-attribute {
+  color: #9b869b;
+}
+
+.hljs-string,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-addition {
+  color: #8f9c6c;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-sulphurpool-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Sulphurpool Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Sulphurpool Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #6b7394;
+}
+
+/* Atelier-Sulphurpool Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #c94922;
+}
+
+/* Atelier-Sulphurpool Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #c76b29;
+}
+
+/* Atelier-Sulphurpool Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #ac9739;
+}
+
+/* Atelier-Sulphurpool Blue */
+.hljs-title,
+.hljs-section {
+  color: #3d8fd1;
+}
+
+/* Atelier-Sulphurpool Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #6679cc;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f5f7ff;
+  color: #5e6687;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>magula</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+Description: Magula style for highligh.js
+Author: Ruslan Keba &lt;rukeba@gmail.com&gt;
+Website: http://rukeba.com/
+Version: 1.0
+Date: 2009-01-03
+Music: Aphex Twin / Xtal
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.hljs-subst {
+  color: black;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-attribute,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #050;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #777;
+}
+
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-type,
+.hljs-link {
+  color: #800;
+}
+
+.hljs-deletion,
+.hljs-meta {
+  color: #00e;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-tag,
+.hljs-name {
+  font-weight: bold;
+  color: navy;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-heath-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Heath Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Heath Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #776977;
+}
+
+/* Atelier-Heath Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #ca402b;
+}
+
+/* Atelier-Heath Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #a65926;
+}
+
+/* Atelier-Heath Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #918b3b;
+}
+
+/* Atelier-Heath Blue */
+.hljs-title,
+.hljs-section {
+  color: #516aec;
+}
+
+/* Atelier-Heath Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #7b59c0;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f7f3f7;
+  color: #695d69;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #444;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link {
+  color: white;
+}
+
+.hljs,
+.hljs-subst {
+  color: #ddd;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-name,
+.hljs-type,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-built_in,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #d88;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  color: #777;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>kimbie.dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+    Name:     Kimbie (dark)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+/* Kimbie Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #d6baad;
+}
+
+/* Kimbie Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-meta {
+  color: #dc3958;
+}
+
+/* Kimbie Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-deletion,
+.hljs-link {
+  color: #f79a32;
+}
+
+/* Kimbie Yellow */
+.hljs-title,
+.hljs-section,
+.hljs-attribute {
+  color: #f06431;
+}
+
+/* Kimbie Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #889b4a;
+}
+
+/* Kimbie Purple */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-function {
+  color: #98676a;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #221a0f;
+  color: #d3af86;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-plateau-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Plateau Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #655d5d;
+}
+
+/* Atelier-Plateau Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #ca4949;
+}
+
+/* Atelier-Plateau Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #b45a3c;
+}
+
+/* Atelier-Plateau Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #4b8b8b;
+}
+
+/* Atelier-Plateau Blue */
+.hljs-title,
+.hljs-section {
+  color: #7272ca;
+}
+
+/* Atelier-Plateau Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #8464c4;
+}
+
+.hljs-deletion,
+.hljs-addition {
+  color: #1b1818;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #ca4949;
+}
+
+.hljs-addition {
+  background-color: #4b8b8b;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f4ecec;
+  color: #585050;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>a11y-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* a11y-dark theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #d4d0ab;
+}
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ffa07a;
+}
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #f5ab35;
+}
+
+/* Yellow */
+.hljs-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #dcc6e0;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2b2b2b;
+  color: #f8f8f2;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+        color: highlight;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+        font-weight: bold;
+    }
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>far</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+FAR Style (c) MajestiC &lt;majestic2k@gmail.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000080;
+}
+
+.hljs,
+.hljs-subst {
+  color: #0ff;
+}
+
+.hljs-string,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition {
+  color: #ff0;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-type,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-variable {
+  color: #fff;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-doctag,
+.hljs-deletion {
+  color: #888;
+}
+
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-link {
+  color: #0f0;
+}
+
+.hljs-meta {
+  color: #008080;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>default</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Original highlight.js style (c) Ivan Sagalaev &lt;maniac@softwaremaniacs.org&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+
+/* Base color: saturation 0; */
+
+.hljs,
+.hljs-subst {
+  color: #444;
+}
+
+.hljs-comment {
+  color: #888888;
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #880000;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.hljs-literal {
+  color: #78A960;
+}
+
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #397300;
+}
+
+
+/* Meta color: hue: 200 */
+
+.hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>night-owl</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Night Owl for highlight.js (c) Carl Baxter &lt;carl@cbax.tech&gt;
+
+An adaptation of Sarah Drasner's Night Owl VS Code Theme 
+https://github.com/sdras/night-owl-vscode-theme 
+
+Copyright (c) 2018 Sarah Drasner
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #011627;
+  color: #d6deeb;
+}
+
+/* General Purpose */
+.hljs-keyword {
+  color: #c792ea;
+  font-style: italic;
+}
+.hljs-built_in {
+  color: #addb67;
+  font-style: italic;
+}
+.hljs-type {
+  color: #82aaff;
+}
+.hljs-literal {
+  color: #ff5874;
+}
+.hljs-number {
+  color: #F78C6C;
+}
+.hljs-regexp {
+  color: #5ca7e4;
+}
+.hljs-string {
+  color: #ecc48d;
+}
+.hljs-subst {
+  color: #d3423e;
+}
+.hljs-symbol {
+  color: #82aaff;
+}
+.hljs-class {
+  color: #ffcb8b;
+}
+.hljs-function {
+  color: #82AAFF;
+}
+.hljs-title {
+  color: #DCDCAA;
+  font-style: italic;
+}
+.hljs-params {
+  color: #7fdbca;
+}
+
+/* Meta */
+.hljs-comment {
+  color: #637777;
+  font-style: italic;
+}
+.hljs-doctag {
+  color: #7fdbca;
+}
+.hljs-meta {
+  color: #82aaff;
+}
+.hljs-meta-keyword {
+  color: #82aaff;
+}
+.hljs-meta-string {
+  color: #ecc48d;
+}
+
+/* Tags, attributes, config */
+.hljs-section {
+  color: #82b1ff;
+}
+.hljs-tag,
+.hljs-name,
+.hljs-builtin-name {
+  color: #7fdbca;
+}
+.hljs-attr {
+  color: #7fdbca;
+}
+.hljs-attribute {
+  color: #80cbc4;
+}
+.hljs-variable {
+  color: #addb67;
+}
+
+/* Markup */
+.hljs-bullet {
+  color: #d9f5dd;
+}
+.hljs-code {
+  color: #80CBC4;
+}
+.hljs-emphasis {
+  color: #c792ea;
+  font-style: italic;
+}
+.hljs-strong {
+  color: #addb67;
+  font-weight: bold;
+}
+.hljs-formula {
+  color: #c792ea;
+}
+.hljs-link {
+  color: #ff869a;
+}
+.hljs-quote {
+  color: #697098;
+  font-style: italic;
+}
+
+/* CSS */
+.hljs-selector-tag {
+  color: #ff6363;
+}
+
+.hljs-selector-id {
+  color: #fad430;
+}
+
+.hljs-selector-class {
+  color: #addb67;
+  font-style: italic;
+}
+
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #c792ea;
+  font-style: italic;
+}
+
+/* Templates */
+.hljs-template-tag {
+  color: #c792ea;
+}
+.hljs-template-variable {
+  color: #addb67;
+}
+
+/* diff */
+.hljs-addition {
+  color: #addb67ff;
+  font-style: italic;
+}
+
+.hljs-deletion {
+  color: #EF535090;
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>xcode</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+XCode style (c) Angel Garcia &lt;angelgarcia.mail@gmail.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+  color: black;
+}
+
+/* Gray DOCTYPE selectors like WebKit */
+.xml .hljs-meta {
+  color: #c0c0c0;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #007400;
+}
+
+.hljs-tag,
+.hljs-attribute,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-name {
+  color: #aa0d91;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #3F6E74;
+}
+
+.hljs-code,
+.hljs-string,
+.hljs-meta-string {
+  color: #c41a16;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #0E0EFF;
+}
+
+.hljs-title,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-number {
+  color: #1c00cf;
+}
+
+.hljs-section,
+.hljs-meta {
+  color: #643820;
+}
+
+
+.hljs-class .hljs-title,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-params {
+  color: #5c2699;
+}
+
+.hljs-attr {
+  color: #836C28;
+}
+
+.hljs-subst {
+  color: #000;
+}
+
+.hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.hljs-addition {
+  background-color: #baeeba;
+}
+
+.hljs-deletion {
+  background-color: #ffc8bd;
+}
+
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #9b703f;
+}
+
+.hljs-doctag,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-seaside-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Seaside Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Seaside Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #687d68;
+}
+
+/* Atelier-Seaside Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #e6193c;
+}
+
+/* Atelier-Seaside Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #87711d;
+}
+
+/* Atelier-Seaside Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #29a329;
+}
+
+/* Atelier-Seaside Blue */
+.hljs-title,
+.hljs-section {
+  color: #3d62f5;
+}
+
+/* Atelier-Seaside Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #ad2bee;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f4fbf4;
+  color: #5e6e5e;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>solarized-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull &lt;sourdrums@gmail.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #002b36;
+  color: #839496;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #586e75;
+}
+
+/* Solarized Green */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-addition {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+.hljs-number,
+.hljs-string,
+.hljs-meta .hljs-meta-string,
+.hljs-literal,
+.hljs-doctag,
+.hljs-regexp {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #268bd2;
+}
+
+/* Solarized Yellow */
+.hljs-attribute,
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type {
+  color: #b58900;
+}
+
+/* Solarized Orange */
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
+  color: #cb4b16;
+}
+
+/* Solarized Red */
+.hljs-built_in,
+.hljs-deletion {
+  color: #dc322f;
+}
+
+.hljs-formula {
+  background: #073642;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-cave-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Cave Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Cave Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #655f6d;
+}
+
+/* Atelier-Cave Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #be4678;
+}
+
+/* Atelier-Cave Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #aa573c;
+}
+
+/* Atelier-Cave Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #2a9292;
+}
+
+/* Atelier-Cave Blue */
+.hljs-title,
+.hljs-section {
+  color: #576ddb;
+}
+
+/* Atelier-Cave Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #955ae7;
+}
+
+.hljs-deletion,
+.hljs-addition {
+  color: #19171c;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #be4678;
+}
+
+.hljs-addition {
+  background-color: #2a9292;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #efecf4;
+  color: #585260;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ir-black</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+  IR_Black style (c) Vasily Mikhailitchenko &lt;vaskas@programica.ru&gt;
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-meta {
+  color: #7c7c7c;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-tag,
+.hljs-name {
+  color: #96cbfe;
+}
+
+.hljs-attribute,
+.hljs-selector-id {
+  color: #ffffb6;
+}
+
+.hljs-string,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition {
+  color: #a8ff60;
+}
+
+.hljs-subst {
+  color: #daefa3;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #e9c062;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-doctag {
+  color: #ffffb6;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-literal {
+  color: #c6c5fe;
+}
+
+.hljs-number,
+.hljs-deletion {
+  color:#ff73fd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>grayscale</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+grayscale style (c) MY Sun &lt;simonmysun@gmail.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #fff;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #777;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal {
+  color: #777;
+}
+
+.hljs-string,
+.hljs-doctag,
+.hljs-formula {
+  color: #333;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQIW2O8e/fufwYGBgZBQUEQxcCIIfDu3Tuwivfv30NUoAsAALHpFMMLqZlPAAAAAElFTkSuQmCC) repeat;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #000;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-class .hljs-title,
+.hljs-type,
+.hljs-name {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-tag {
+  color: #333;
+}
+
+.hljs-regexp {
+    color: #333;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAN37979r6yszIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDexSef15DBCwAAAABJRU5ErkJggg==) repeat;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #000;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQAO7d+/+z4gsBhJwdXVlhAvCBECKwIIwAbhKZBUwBQA6hBpm5efZsgAAAABJRU5ErkJggg==) repeat;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #000;
+  text-decoration: underline;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  color: #fff;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAE0lEQVQIW2MMDQ39zzhz5kwIAQAyxweWgUHd1AAAAABJRU5ErkJggg==) repeat;
+}
+
+.hljs-addition {
+  color: #000;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAALUlEQVQYV2N89+7dfwYk8P79ewZBQUFkIQZGOiu6e/cuiptQHAPl0NtNxAQBAM97Oejj3Dg7AAAAAElFTkSuQmCC) repeat;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>a11y-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* a11y-light theme */
+/* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
+/* @author: ericwbailey */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #696969;
+}
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #d91e18;
+}
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #aa5d00;
+}
+
+/* Yellow */
+.hljs-attribute {
+  color: #aa5d00;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #008000;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section {
+  color: #007faa;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #7928a1;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #fefefe;
+  color: #545454;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+        color: highlight;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+        font-weight: bold;
+    }
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>github-gist</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/**
+ * GitHub Gist Theme
+ * Author : Anthony Attard - https://github.com/AnthonyAttard
+ * Author : Louis Barranqueiro - https://github.com/LouisBarranqueiro
+ */
+
+.hljs {
+  display: block;
+  background: white;
+  padding: 0.5em;
+  color: #333333;
+  overflow-x: auto;
+}
+
+.hljs-comment,
+.hljs-meta {
+  color: #969896;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-strong,
+.hljs-emphasis,
+.hljs-quote {
+  color: #df5000;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-type {
+  color: #d73a49;
+}
+
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-attribute {
+  color: #0086b3;
+}
+
+.hljs-section,
+.hljs-name {
+  color: #63a35c;
+}
+
+.hljs-tag {
+  color: #333333;
+}
+
+.hljs-title,
+.hljs-attr,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #6f42c1;
+}
+
+.hljs-addition {
+  color: #55a532;
+  background-color: #eaffea;
+}
+
+.hljs-deletion {
+  color: #bd2c00;
+  background-color: #ffecec;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+
+.hljs-number {
+  color: #005cc5;
+}
+
+.hljs-string {
+  color: #032f62;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>gradient-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Gradient Dark (c) Samia Ali &lt;samiaab1990@gmail.com&gt;
+
+*/
+
+.hljs
+{
+display: block;
+overflow-x: auto;
+padding: 0.5em;
+background: rgb(80,31,122);
+background: linear-gradient(166deg, rgba(80,31,122,1) 0%, rgba(40,32,179,1) 80%);
+color:#e7e4eb;
+}
+
+.hljs-subtr{
+  color:#e7e4eb;
+}
+
+.hljs-doctag,
+.hljs-meta,
+.hljs-comment,
+.hljs-quote
+{
+  color:#af8dd9;
+}
+
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-template-tag,
+.hljs-regexp,
+.hljs-attr,
+.hljs-tag
+{
+  color:#AEFBFF;
+}
+
+.hljs-params,
+.hljs-selector-class,
+.hljs-bullet
+
+{
+  color:#F19FFF;
+  
+}
+
+.hljs-keyword,
+.hljs-section,
+.hljs-meta-keyword,
+.hljs-symbol,
+.hljs-type
+
+{
+
+  color:#17fc95;
+}
+
+.hljs-addition,
+.hljs-number,
+.hljs-link
+{
+  color:#C5FE00;
+}
+
+
+.hljs-string
+{
+  color: #38c0ff;
+}
+
+
+.hljs-attribute,
+.hljs-addition
+{
+  color:#E7FF9F;
+}
+
+.hljs-variable,
+.hljs-template-variable
+
+{
+  color:#E447FF;
+}
+
+.hljs-builtin-name,
+.hljs-built_in,
+.hljs-formula,
+.hljs-name,
+.hljs-title,
+.hljs-class,
+.hljs-function
+{
+  color: #FFC800;
+
+}
+
+.hljs-selector-pseudo,
+.hljs-deletion,
+.hljs-literal
+{
+  color:#FF9E44;
+
+}
+
+.hljs-emphasis,
+.hljs-quote
+{
+  font-style:italic;
+}
+
+.hljs-params,
+.hljs-selector-class,
+.hljs-strong,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-template-tag,
+.hljs-section,
+.hljs-keyword
+{
+  font-weight:bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>gruvbox-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Gruvbox style (dark) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox)
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282828;
+}
+
+.hljs,
+.hljs-subst {
+  color: #ebdbb2;
+}
+
+/* Gruvbox Red */
+.hljs-deletion,
+.hljs-formula,
+.hljs-keyword,
+.hljs-link,
+.hljs-selector-tag {
+  color: #fb4934;
+}
+
+/* Gruvbox Blue */
+.hljs-built_in,
+.hljs-emphasis,
+.hljs-name,
+.hljs-quote,
+.hljs-strong,
+.hljs-title,
+.hljs-variable {
+  color: #83a598;
+}
+
+/* Gruvbox Yellow */
+.hljs-attr,
+.hljs-params,
+.hljs-template-tag,
+.hljs-type {
+  color: #fabd2f;
+}
+
+/* Gruvbox Purple */
+.hljs-builtin-name,
+.hljs-doctag,
+.hljs-literal,
+.hljs-number {
+  color: #8f3f71;
+}
+
+/* Gruvbox Orange */
+.hljs-code,
+.hljs-meta,
+.hljs-regexp,
+.hljs-selector-id,
+.hljs-template-variable {
+  color: #fe8019;
+}
+
+/* Gruvbox Green */
+.hljs-addition,
+.hljs-meta-string,
+.hljs-section,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-string,
+.hljs-symbol {
+  color: #b8bb26;
+}
+
+/* Gruvbox Aqua */
+.hljs-attribute,
+.hljs-bullet,
+.hljs-class,
+.hljs-function,
+.hljs-function .hljs-keyword,
+.hljs-meta-keyword,
+.hljs-selector-pseudo,
+.hljs-tag {
+  color: #8ec07c;
+}
+
+/* Gruvbox Gray */
+.hljs-comment {
+  color: #928374;
+}
+
+/* Gruvbox Purple */
+.hljs-link_label,
+.hljs-literal,
+.hljs-number {
+  color: #d3869b;
+}
+
+.hljs-comment,
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-section,
+.hljs-strong,
+.hljs-tag {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>32</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>qtcreator_light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Qt Creator light color scheme
+
+*/
+
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #ffffff;
+}
+
+.hljs,
+.hljs-subst,
+.hljs-tag,
+.hljs-title {
+  color: #000000;
+}
+
+.hljs-strong,
+.hljs-emphasis {
+  color: #000000;
+}
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal {
+  color: #000080;
+}
+
+.hljs-code
+.hljs-selector-class {
+  color: #800080;
+}
+
+.hljs-emphasis,
+.hljs-stronge,
+.hljs-type {
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-function,
+.hljs-section,
+.hljs-symbol,
+.hljs-name {
+  color: #808000;
+}
+
+.hljs-attribute {
+  color: #800000;
+}
+
+.hljs-variable,
+.hljs-params,
+.hljs-class .hljs-title {
+  color: #0055AF;
+}
+
+.hljs-string,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition,
+.hljs-link {
+  color: #008000;
+}
+
+.hljs-comment,
+.hljs-meta,
+.hljs-deletion {
+  color: #008000;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>33</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>tomorrow</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+  color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+  color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #8959a8;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: white;
+  color: #4d4d4c;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>tomorrow-night-bright</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Tomorrow Night Bright Theme */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #d54e53;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #e78c45;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+  color: #e7c547;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #b9ca4a;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+  color: #7aa6da;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #c397d8;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: black;
+  color: #eaeaea;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-estuary-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Estuary Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Estuary Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #6c6b5a;
+}
+
+/* Atelier-Estuary Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #ba6236;
+}
+
+/* Atelier-Estuary Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #ae7313;
+}
+
+/* Atelier-Estuary Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #7d9726;
+}
+
+/* Atelier-Estuary Blue */
+.hljs-title,
+.hljs-section {
+  color: #36a166;
+}
+
+/* Atelier-Estuary Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #5f9182;
+}
+
+.hljs-deletion,
+.hljs-addition {
+  color: #22221b;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #ba6236;
+}
+
+.hljs-addition {
+  background-color: #7d9726;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f4f3ec;
+  color: #5f5e4e;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-dune-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Dune Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Dune Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #999580;
+}
+
+/* Atelier-Dune Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #d73737;
+}
+
+/* Atelier-Dune Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #b65611;
+}
+
+/* Atelier-Dune Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #60ac39;
+}
+
+/* Atelier-Dune Blue */
+.hljs-title,
+.hljs-section {
+  color: #6684e1;
+}
+
+/* Atelier-Dune Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #b854d4;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #20201d;
+  color: #a6a28c;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>37</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ocean</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Ocean Dark Theme */
+/* https://github.com/gavsiu */
+/* Original theme - https://github.com/chriskempson/base16 */
+
+/* Ocean Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #65737e;
+}
+
+/* Ocean Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #bf616a;
+}
+
+/* Ocean Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #d08770;
+}
+
+/* Ocean Yellow */
+.hljs-attribute {
+  color: #ebcb8b;
+}
+
+/* Ocean Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #a3be8c;
+}
+
+/* Ocean Blue */
+.hljs-title,
+.hljs-section {
+  color: #8fa1b3;
+}
+
+/* Ocean Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #b48ead;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2b303b;
+  color: #c0c5ce;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>38</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>nord</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+ * Copyright (c) 2017-present Arctic Ice Studio &lt;development@arcticicestudio.com&gt;
+ * Copyright (c) 2017-present Sven Greb &lt;development@svengreb.de&gt;
+ *
+ * Project:    Nord highlight.js
+ * Version:    0.1.0
+ * Repository: https://github.com/arcticicestudio/nord-highlightjs
+ * License:    MIT
+ * References:
+ *   https://github.com/arcticicestudio/nord
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2E3440;
+}
+
+.hljs,
+.hljs-subst {
+  color: #D8DEE9;
+}
+
+.hljs-selector-tag {
+  color: #81A1C1;
+}
+
+.hljs-selector-id {
+  color: #8FBCBB;
+  font-weight: bold;
+}
+
+.hljs-selector-class {
+  color: #8FBCBB;
+}
+
+.hljs-selector-attr {
+  color: #8FBCBB;
+}
+
+.hljs-selector-pseudo {
+  color: #88C0D0;
+}
+
+.hljs-addition {
+  background-color: rgba(163, 190, 140, 0.5);
+}
+
+.hljs-deletion {
+  background-color: rgba(191, 97, 106, 0.5);
+}
+
+.hljs-built_in,
+.hljs-type {
+  color: #8FBCBB;
+}
+
+.hljs-class {
+  color: #8FBCBB;
+}
+
+.hljs-function {
+  color: #88C0D0;
+}
+
+.hljs-function &gt; .hljs-title {
+  color: #88C0D0;
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol {
+  color: #81A1C1;
+}
+
+.hljs-number {
+  color: #B48EAD;
+}
+
+.hljs-regexp {
+  color: #EBCB8B;
+}
+
+.hljs-string {
+  color: #A3BE8C;
+}
+
+.hljs-title {
+  color: #8FBCBB;
+}
+
+.hljs-params {
+  color: #D8DEE9;
+}
+
+.hljs-bullet {
+  color: #81A1C1;
+}
+
+.hljs-code {
+  color: #8FBCBB;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-formula {
+  color: #8FBCBB;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link:hover {
+  text-decoration: underline;
+}
+
+.hljs-quote {
+  color: #4C566A;
+}
+
+.hljs-comment {
+  color: #4C566A;
+}
+
+.hljs-doctag {
+  color: #8FBCBB;
+}
+
+.hljs-meta,
+.hljs-meta-keyword {
+  color: #5E81AC;
+}
+
+.hljs-meta-string {
+  color: #A3BE8C;
+}
+
+.hljs-attr {
+  color: #8FBCBB;
+}
+
+.hljs-attribute {
+  color: #D8DEE9;
+}
+
+.hljs-builtin-name {
+  color: #81A1C1;
+}
+
+.hljs-name {
+  color: #81A1C1;
+}
+
+.hljs-section {
+  color: #88C0D0;
+}
+
+.hljs-tag {
+  color: #81A1C1;
+}
+
+.hljs-variable {
+  color: #D8DEE9;
+}
+
+.hljs-template-variable {
+  color: #D8DEE9;
+}
+
+.hljs-template-tag {
+  color: #5E81AC;
+}
+
+.abnf .hljs-attribute {
+  color: #88C0D0;
+}
+
+.abnf .hljs-symbol {
+  color: #EBCB8B;
+}
+
+.apache .hljs-attribute {
+  color: #88C0D0;
+}
+
+.apache .hljs-section {
+  color: #81A1C1;
+}
+
+.arduino .hljs-built_in {
+  color: #88C0D0;
+}
+
+.aspectj .hljs-meta {
+  color: #D08770;
+}
+
+.aspectj &gt; .hljs-title {
+  color: #88C0D0;
+}
+
+.bnf .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.clojure .hljs-name {
+  color: #88C0D0;
+}
+
+.clojure .hljs-symbol {
+  color: #EBCB8B;
+}
+
+.coq .hljs-built_in {
+  color: #88C0D0;
+}
+
+.cpp .hljs-meta-string {
+  color: #8FBCBB;
+}
+
+.css .hljs-built_in {
+  color: #88C0D0;
+}
+
+.css .hljs-keyword {
+  color: #D08770;
+}
+
+.diff .hljs-meta {
+  color: #8FBCBB;
+}
+
+.ebnf .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.glsl .hljs-built_in {
+  color: #88C0D0;
+}
+
+.groovy .hljs-meta:not(:first-child) {
+  color: #D08770;
+}
+
+.haxe .hljs-meta {
+  color: #D08770;
+}
+
+.java .hljs-meta {
+  color: #D08770;
+}
+
+.ldif .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.lisp .hljs-name {
+  color: #88C0D0;
+}
+
+.lua .hljs-built_in {
+  color: #88C0D0;
+}
+
+.moonscript .hljs-built_in {
+  color: #88C0D0;
+}
+
+.nginx .hljs-attribute {
+  color: #88C0D0;
+}
+
+.nginx .hljs-section {
+  color: #5E81AC;
+}
+
+.pf .hljs-built_in {
+  color: #88C0D0;
+}
+
+.processing .hljs-built_in {
+  color: #88C0D0;
+}
+
+.scss .hljs-keyword {
+  color: #81A1C1;
+}
+
+.stylus .hljs-keyword {
+  color: #81A1C1;
+}
+
+.swift .hljs-meta {
+  color: #D08770;
+}
+
+.vim .hljs-built_in {
+  color: #88C0D0;
+  font-style: italic;
+}
+
+.yaml .hljs-meta {
+  color: #D08770;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>39</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>androidstudio</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+Date: 24 Fev 2015
+Author: Pedro Oliveira &lt;kanytu@gmail . com&gt;
+*/
+
+.hljs {
+  color: #a9b7c6;
+  background: #282b2e;
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet {
+  color: #6897BB;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-deletion {
+  color: #cc7832;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link {
+  color: #629755;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #808080;
+}
+
+.hljs-meta {
+  color: #bbb529;
+}
+
+.hljs-string,
+.hljs-attribute,
+.hljs-addition {
+  color: #6A8759;
+}
+
+.hljs-section,
+.hljs-title,
+.hljs-type {
+  color: #ffc66d;
+}
+
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #e8bf6a;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>paraiso-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+    Paraíso (light)
+    Created by Jan T. Sott (http://github.com/idleberg)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+*/
+
+/* Paraíso Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #776e71;
+}
+
+/* Paraíso Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-link,
+.hljs-meta {
+  color: #ef6155;
+}
+
+/* Paraíso Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-deletion {
+  color: #f99b15;
+}
+
+/* Paraíso Yellow */
+.hljs-title,
+.hljs-section,
+.hljs-attribute {
+  color: #fec418;
+}
+
+/* Paraíso Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #48b685;
+}
+
+/* Paraíso Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #815ba4;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #e7e9db;
+  color: #4f424c;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>41</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>rainbow</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Style with support for rainbow parens
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #474949;
+  color: #d1d9e1;
+}
+
+
+.hljs-comment,
+.hljs-quote {
+  color: #969896;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-type,
+.hljs-addition {
+  color: #cc99cc;
+}
+
+.hljs-number,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #f99157;
+}
+
+.hljs-string,
+.hljs-doctag,
+.hljs-regexp {
+  color: #8abeb7;
+}
+
+.hljs-title,
+.hljs-name,
+.hljs-section,
+.hljs-built_in {
+  color: #b5bd68;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id,
+.hljs-class .hljs-title {
+   color: #ffcc66;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-link {
+  color: #f99157;
+}
+
+.hljs-deletion {
+  color: #dc322f;
+}
+
+.hljs-formula {
+  background: #eee8d5;
+}
+
+.hljs-attr,
+.hljs-attribute {
+  color: #81a2be;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>42</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-savanna-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Savanna Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Savanna Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #5f6d64;
+}
+
+/* Atelier-Savanna Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #b16139;
+}
+
+/* Atelier-Savanna Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #9f713c;
+}
+
+/* Atelier-Savanna Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #489963;
+}
+
+/* Atelier-Savanna Blue */
+.hljs-title,
+.hljs-section {
+  color: #478c90;
+}
+
+/* Atelier-Savanna Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #55859b;
+}
+
+.hljs-deletion,
+.hljs-addition {
+  color: #171c19;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #b16139;
+}
+
+.hljs-addition {
+  background-color: #489963;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #ecf4ee;
+  color: #526057;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>43</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>kimbie.light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+    Name:     Kimbie (light)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+/* Kimbie Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #a57a4c;
+}
+
+/* Kimbie Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-meta {
+  color: #dc3958;
+}
+
+/* Kimbie Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-deletion,
+.hljs-link {
+  color: #f79a32;
+}
+
+/* Kimbie Yellow */
+.hljs-title,
+.hljs-section,
+.hljs-attribute {
+  color: #f06431;
+}
+
+/* Kimbie Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #889b4a;
+}
+
+/* Kimbie Purple */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-function {
+  color: #98676a;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #fbebd4;
+  color: #84613d;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>44</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>tomorrow-night-eighties</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Tomorrow Night Eighties Theme */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #999999;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #f2777a;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #f99157;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+  color: #ffcc66;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #99cc99;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+  color: #6699cc;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #cc99cc;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2d2d2d;
+  color: #cccccc;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>45</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>isbl-editor-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+ISBL Editor style dark color scheme (c) Dmitriy Tarasov &lt;dimatar@gmail.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #404040;
+  color: #f0f0f0;
+}
+
+/* Base color: saturation 0; */
+
+.hljs,
+.hljs-subst {
+  color: #f0f0f0;
+}
+
+.hljs-comment {
+  color: #b5b5b5;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.hljs-string {
+  color: #97bf0d;
+}
+
+.hljs-type,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #f0f0f0;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #df471e;
+}
+
+.hljs-title&gt;.hljs-built_in {
+  color: #81bce9;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #e2c696;
+}
+
+/* Language color: hue: 90; */
+
+.hljs-built_in,
+.hljs-literal {
+  color: #97bf0d;
+  font-weight: bold;
+}
+
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #397300;
+}
+
+.hljs-class  {
+  color: #ce9d4d;
+  font-weight: bold;
+}
+
+/* Meta color: hue: 200 */
+
+.hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>46</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>docco</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #000;
+  background: #f8f8ff;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #408080;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-subst {
+  color: #954121;
+}
+
+.hljs-number {
+  color: #40a070;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #219161;
+}
+
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-section,
+.hljs-type {
+  color: #19469d;
+}
+
+.hljs-params {
+  color: #00f;
+}
+
+.hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #008080;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #b68;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>47</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>lightfair</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Lightfair style (c) Tristian Kelly &lt;tristian.kelly560@gmail.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  /* TODO: background? */
+}
+
+.hljs-name {
+    color:#01a3a3;
+}
+
+.hljs-tag,.hljs-meta {
+    color:#778899;
+}
+
+.hljs,
+.hljs-subst {
+    color: #444
+}
+
+.hljs-comment {
+    color: #888888
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+    font-weight: bold
+}
+
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+    color: #4286f4
+}
+
+.hljs-title,
+.hljs-section {
+    color: #4286f4;
+    font-weight: bold
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+    color: #BC6060
+}
+
+.hljs-literal {
+    color: #62bcbc
+}
+
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+    color: #25c6c6
+}
+
+.hljs-meta-string {
+    color: #4d99bf
+}
+
+.hljs-emphasis {
+    font-style: italic
+}
+
+.hljs-strong {
+    font-weight: bold
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>48</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>gruvbox-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Gruvbox style (light) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox)
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fbf1c7;
+}
+
+.hljs,
+.hljs-subst {
+  color: #3c3836;
+}
+
+/* Gruvbox Red */
+.hljs-deletion,
+.hljs-formula,
+.hljs-keyword,
+.hljs-link,
+.hljs-selector-tag {
+  color: #9d0006;
+}
+
+/* Gruvbox Blue */
+.hljs-built_in,
+.hljs-emphasis,
+.hljs-name,
+.hljs-quote,
+.hljs-strong,
+.hljs-title,
+.hljs-variable {
+  color: #076678;
+}
+
+/* Gruvbox Yellow */
+.hljs-attr,
+.hljs-params,
+.hljs-template-tag,
+.hljs-type {
+  color: #b57614;
+}
+
+/* Gruvbox Purple */
+.hljs-builtin-name,
+.hljs-doctag,
+.hljs-literal,
+.hljs-number {
+  color: #8f3f71;
+}
+
+/* Gruvbox Orange */
+.hljs-code,
+.hljs-meta,
+.hljs-regexp,
+.hljs-selector-id,
+.hljs-template-variable {
+  color: #af3a03;
+}
+
+/* Gruvbox Green */
+.hljs-addition,
+.hljs-meta-string,
+.hljs-section,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-string,
+.hljs-symbol {
+  color: #79740e;
+}
+
+/* Gruvbox Aqua */
+.hljs-attribute,
+.hljs-bullet,
+.hljs-class,
+.hljs-function,
+.hljs-function .hljs-keyword,
+.hljs-meta-keyword,
+.hljs-selector-pseudo,
+.hljs-tag {
+  color: #427b58;
+}
+
+/* Gruvbox Gray */
+.hljs-comment {
+  color: #928374;
+}
+
+/* Gruvbox Purple */
+.hljs-link_label,
+.hljs-literal,
+.hljs-number {
+  color: #8f3f71;
+}
+
+.hljs-comment,
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-section,
+.hljs-strong,
+.hljs-tag {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>49</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>solarized-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull &lt;sourdrums@gmail.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fdf6e3;
+  color: #657b83;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #93a1a1;
+}
+
+/* Solarized Green */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-addition {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+.hljs-number,
+.hljs-string,
+.hljs-meta .hljs-meta-string,
+.hljs-literal,
+.hljs-doctag,
+.hljs-regexp {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #268bd2;
+}
+
+/* Solarized Yellow */
+.hljs-attribute,
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type {
+  color: #b58900;
+}
+
+/* Solarized Orange */
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
+  color: #cb4b16;
+}
+
+/* Solarized Red */
+.hljs-built_in,
+.hljs-deletion {
+  color: #dc322f;
+}
+
+.hljs-formula {
+  background: #eee8d5;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>50</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atom-one-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Atom One Light by Daniel Gamage
+Original One Light Syntax theme from https://github.com/atom/one-light-syntax
+
+base:    #fafafa
+mono-1:  #383a42
+mono-2:  #686b77
+mono-3:  #a0a1a7
+hue-1:   #0184bb
+hue-2:   #4078f2
+hue-3:   #a626a4
+hue-4:   #50a14f
+hue-5:   #e45649
+hue-5-2: #c91243
+hue-6:   #986801
+hue-6-2: #c18401
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #383a42;
+  background: #fafafa;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: #a626a4;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e45649;
+}
+
+.hljs-literal {
+  color: #0184bb;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: #50a14f;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #c18401;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #986801;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #4078f2;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>51</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>an-old-hope</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* 
+
+An Old Hope – Star Wars Syntax (c) Gustavo Costa &lt;gusbemacbe@gmail.com&gt;
+Original theme - Ocean Dark Theme – by https://github.com/gavsiu
+Based on Jesse Leite's Atom syntax theme 'An Old Hope' – https://github.com/JesseLeite/an-old-hope-syntax-atom
+
+*/
+
+/* Death Star Comment */
+.hljs-comment,
+.hljs-quote 
+{
+  color: #B6B18B;
+}
+
+/* Darth Vader */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion 
+{
+  color: #EB3C54;
+}
+
+/* Threepio */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link 
+{
+  color: #E7CE56;
+}
+
+/* Luke Skywalker */
+.hljs-attribute 
+{
+  color: #EE7C2B;
+}
+
+/* Obi Wan Kenobi */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition 
+{
+  color: #4FB4D7;
+}
+
+/* Yoda */
+.hljs-title,
+.hljs-section 
+{
+  color: #78BB65;
+}
+
+/* Mace Windu */
+.hljs-keyword,
+.hljs-selector-tag 
+{
+  color: #B45EA4;
+}
+
+/* Millenium Falcon */
+.hljs 
+{
+  display: block;
+  overflow-x: auto;
+  background: #1C1D21;
+  color: #c0c5ce;
+  padding: 0.5em;
+}
+
+.hljs-emphasis 
+{
+  font-style: italic;
+}
+
+.hljs-strong 
+{
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>52</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>routeros</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+ highlight.js style for Microtik RouterOS script
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+/* Base color: saturation 0; */
+
+.hljs,
+.hljs-subst {
+  color: #444;
+}
+
+.hljs-comment {
+  color: #888888;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+  font-weight: bold;
+}
+
+.hljs-attribute {
+  color: #0E9A00;
+}    
+
+.hljs-function {
+  color: #99069A;
+}
+
+.hljs-builtin-name {
+  color: #99069A;
+}
+
+/* User color: hue: 0 */
+
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #880000;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.hljs-literal {
+  color: #78A960;
+}
+
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #0C9A9A;
+}
+
+
+/* Meta color: hue: 200 */
+
+.hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>53</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>tomorrow-night-blue</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Tomorrow Night Blue Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #7285b7;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ff9da4;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #ffc58f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+  color: #ffeead;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #d1f1a9;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+  color: #bbdaff;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #ebbbff;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #002451;
+  color: white;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>54</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>arta</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+Date: 17.V.2011
+Author: pumbur &lt;pumbur@pumbur.net&gt;
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222;
+}
+
+.hljs,
+.hljs-subst {
+  color: #aaa;
+}
+
+.hljs-section {
+  color: #fff;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-meta {
+  color: #444;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-regexp {
+  color: #ffcc33;
+}
+
+.hljs-number,
+.hljs-addition {
+  color: #00cc66;
+}
+
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-link {
+  color: #32aaee;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #6644aa;
+}
+
+.hljs-title,
+.hljs-variable,
+.hljs-deletion,
+.hljs-template-tag {
+  color: #bb1166;
+}
+
+.hljs-section,
+.hljs-doctag,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>55</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>hybrid</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
+
+*/
+
+/*background color*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #1d1f21;
+}
+
+/*selection color*/
+.hljs::selection,
+.hljs span::selection {
+  background: #373b41;
+}
+
+.hljs::-moz-selection,
+.hljs span::-moz-selection {
+  background: #373b41;
+}
+
+/*foreground color*/
+.hljs {
+  color: #c5c8c6;
+}
+
+/*color: fg_yellow*/
+.hljs-title,
+.hljs-name {
+  color: #f0c674;
+}
+
+/*color: fg_comment*/
+.hljs-comment,
+.hljs-meta,
+.hljs-meta .hljs-keyword {
+  color: #707880;
+}
+
+/*color: fg_red*/
+.hljs-number,
+.hljs-symbol,
+.hljs-literal,
+.hljs-deletion,
+.hljs-link {
+ color: #cc6666
+}
+
+/*color: fg_green*/
+.hljs-string,
+.hljs-doctag,
+.hljs-addition,
+.hljs-regexp,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #b5bd68;
+}
+
+/*color: fg_purple*/
+.hljs-attribute,
+.hljs-code,
+.hljs-selector-id {
+ color: #b294bb;
+}
+
+/*color: fg_blue*/
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-bullet,
+.hljs-tag {
+ color: #81a2be;
+}
+
+/*color: fg_aqua*/
+.hljs-subst,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #8abeb7;
+}
+
+/*color: fg_orange*/
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-quote,
+.hljs-section,
+.hljs-selector-class {
+  color: #de935f;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>56</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>tomorrow-night</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Tomorrow Night Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #cc6666;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #de935f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+  color: #f0c674;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #b5bd68;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+  color: #81a2be;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #b294bb;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #1d1f21;
+  color: #c5c8c6;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>57</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>xt256</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>
+/*
+  xt256.css
+
+  Contact: initbar [at] protonmail [dot] ch
+         : github.com/initbar
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  color: #eaeaea;
+  background: #000;
+  padding: 0.5em;
+}
+
+.hljs-subst {
+  color: #eaeaea;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-builtin-name,
+.hljs-type {
+  color: #eaeaea;
+}
+
+.hljs-params {
+  color: #da0000;
+}
+
+.hljs-literal,
+.hljs-number,
+.hljs-name {
+  color: #ff0000;
+  font-weight: bolder;
+}
+
+.hljs-comment {
+  color: #969896;
+}
+
+.hljs-selector-id,
+.hljs-quote {
+  color: #00ffff;
+}
+
+.hljs-template-variable,
+.hljs-variable,
+.hljs-title {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.hljs-selector-class,
+.hljs-keyword,
+.hljs-symbol {
+  color: #fff000;
+}
+
+.hljs-string,
+.hljs-bullet {
+  color: #00ff00;
+}
+
+.hljs-tag,
+.hljs-section {
+  color: #000fff;
+}
+
+.hljs-selector-tag {
+  color: #000fff;
+  font-weight: bold;
+}
+
+.hljs-attribute,
+.hljs-built_in,
+.hljs-regexp,
+.hljs-link {
+  color: #ff00ff;
+}
+
+.hljs-meta {
+  color: #fff;
+  font-weight: bolder;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>58</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>isbl-editor-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+ISBL Editor style light color schemec (c) Dmitriy Tarasov &lt;dimatar@gmail.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+/* Base color: saturation 0; */
+
+.hljs-subst {
+  color: black;
+}
+
+.hljs-comment {
+  color: #555555;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+  color: #000000;
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.hljs-string {
+  color: #000080;
+}
+
+.hljs-type,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #000000;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #fb2c00;
+}
+
+.hljs-title&gt;.hljs-built_in {
+  color: #008080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #5e1700;
+}
+
+/* Language color: hue: 90; */
+
+.hljs-built_in,
+.hljs-literal {
+  color: #000080;
+  font-weight: bold;
+}
+
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #397300;
+}
+
+.hljs-class  {
+  color: #6f1C00;
+  font-weight: bold;
+}
+
+/* Meta color: hue: 200 */
+
+.hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>59</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-forest-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Forest Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Forest Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #766e6b;
+}
+
+/* Atelier-Forest Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #f22c40;
+}
+
+/* Atelier-Forest Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #df5320;
+}
+
+/* Atelier-Forest Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #7b9726;
+}
+
+/* Atelier-Forest Blue */
+.hljs-title,
+.hljs-section {
+  color: #407ee7;
+}
+
+/* Atelier-Forest Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #6666ea;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f1efee;
+  color: #68615e;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>60</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>gml</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+GML Theme - Meseta &lt;meseta@gmail.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #222222;
+  color: #C0C0C0;
+}
+
+.hljs-keyword {
+  color: #FFB871;
+  font-weight: bold;
+}
+
+.hljs-built_in {
+  color: #FFB871;
+}
+
+.hljs-literal {
+  color: #FF8080;
+}
+
+.hljs-symbol {
+  color: #58E55A;
+}
+
+.hljs-comment {
+  color: #5B995B;
+}
+
+.hljs-string {
+  color: #FFFF00;
+}
+
+.hljs-number {
+  color: #FF8080;
+}
+
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-doctag,
+.hljs-name,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition,
+.hljs-regexp,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-type,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion,
+.hljs-title,
+.hljs-section,
+.hljs-function,
+.hljs-meta-keyword,
+.hljs-meta,
+.hljs-subst {
+  color: #C0C0C0;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>61</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-lakeside-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Lakeside Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Lakeside Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #5a7b8c;
+}
+
+/* Atelier-Lakeside Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #d22d72;
+}
+
+/* Atelier-Lakeside Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #935c25;
+}
+
+/* Atelier-Lakeside Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #568c3b;
+}
+
+/* Atelier-Lakeside Blue */
+.hljs-title,
+.hljs-section {
+  color: #257fad;
+}
+
+/* Atelier-Lakeside Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #6b6bb8;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #ebf8ff;
+  color: #516d7b;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>62</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-estuary-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Estuary Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Estuary Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #878573;
+}
+
+/* Atelier-Estuary Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #ba6236;
+}
+
+/* Atelier-Estuary Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #ae7313;
+}
+
+/* Atelier-Estuary Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #7d9726;
+}
+
+/* Atelier-Estuary Blue */
+.hljs-title,
+.hljs-section {
+  color: #36a166;
+}
+
+/* Atelier-Estuary Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #5f9182;
+}
+
+.hljs-deletion,
+.hljs-addition {
+  color: #22221b;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #ba6236;
+}
+
+.hljs-addition {
+  background-color: #7d9726;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #22221b;
+  color: #929181;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>63</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>foundation</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+Description: Foundation 4 docs style for highlight.js
+Author: Dan Allen &lt;dan.j.allen@gmail.com&gt;
+Website: http://foundation.zurb.com/docs/
+Version: 1.0
+Date: 2013-04-02
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #eee;
+  color: black;
+}
+
+.hljs-link,
+.hljs-emphasis,
+.hljs-attribute,
+.hljs-addition {
+  color: #070;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong,
+.hljs-string,
+.hljs-deletion {
+  color: #d14;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-quote,
+.hljs-comment {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-section,
+.hljs-title {
+  color: #900;
+}
+
+.hljs-class .hljs-title,
+.hljs-type {
+  color: #458;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #336699;
+}
+
+.hljs-bullet {
+  color: #997700;
+}
+
+.hljs-meta {
+  color: #3344bb;
+}
+
+.hljs-code,
+.hljs-number,
+.hljs-literal,
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #099;
+}
+
+.hljs-regexp {
+  background-color: #fff0ff;
+  color: #880088;
+}
+
+.hljs-symbol {
+  color: #990073;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #007700;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>64</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>railscasts</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Railscasts-like style (c) Visoft, Inc. (Damien White)
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #232323;
+  color: #e6e1dc;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #bc9458;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #c26230;
+}
+
+.hljs-string,
+.hljs-number,
+.hljs-regexp,
+.hljs-variable,
+.hljs-template-variable {
+  color: #a5c261;
+}
+
+.hljs-subst {
+  color: #519f50;
+}
+
+.hljs-tag,
+.hljs-name {
+  color: #e8bf6a;
+}
+
+.hljs-type {
+  color: #da4939;
+}
+
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-attr,
+.hljs-link {
+  color: #6d9cbe;
+}
+
+.hljs-params {
+  color: #d0d0ff;
+}
+
+.hljs-attribute {
+  color: #cda869;
+}
+
+.hljs-meta {
+  color: #9b859d;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #ffc66d;
+}
+
+.hljs-addition {
+  background-color: #144212;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #600;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-selector-class {
+  color: #9b703f;
+}
+
+.hljs-selector-id {
+  color: #8b98ab;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>65</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-sulphurpool-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Sulphurpool Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Sulphurpool Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #898ea4;
+}
+
+/* Atelier-Sulphurpool Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #c94922;
+}
+
+/* Atelier-Sulphurpool Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #c76b29;
+}
+
+/* Atelier-Sulphurpool Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #ac9739;
+}
+
+/* Atelier-Sulphurpool Blue */
+.hljs-title,
+.hljs-section {
+  color: #3d8fd1;
+}
+
+/* Atelier-Sulphurpool Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #6679cc;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #202746;
+  color: #979db4;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>66</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>hopscotch</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+ * Hopscotch
+ * by Jan T. Sott
+ * https://github.com/idleberg/Hopscotch
+ *
+ * This work is licensed under the Creative Commons CC0 1.0 Universal License
+ */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #989498;
+}
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-link,
+.hljs-deletion {
+  color: #dd464c;
+}
+
+/* Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #fd8b19;
+}
+
+/* Yellow */
+.hljs-class .hljs-title {
+  color: #fdcc59;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #8fc13e;
+}
+
+/* Aqua */
+.hljs-meta {
+  color: #149b93;
+}
+
+/* Blue */
+.hljs-function,
+.hljs-section,
+.hljs-title {
+  color: #1290bf;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #c85e7c;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #322931;
+  color: #b9b5b8;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>67</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ascetic</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.hljs-string,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-section,
+.hljs-addition,
+.hljs-attribute,
+.hljs-link {
+  color: #888;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-meta,
+.hljs-deletion {
+  color: #ccc;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-name,
+.hljs-type,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>68</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>obsidian</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/**
+ * Obsidian style
+ * ported by Alexander Marenin (http://github.com/ioncreature)
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282b2e;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-selector-id {
+  color: #93c763;
+}
+
+.hljs-number {
+  color: #ffcd22;
+}
+
+.hljs {
+  color: #e0e2e4;
+}
+
+.hljs-attribute {
+  color: #668bb0;
+}
+
+.hljs-code,
+.hljs-class .hljs-title,
+.hljs-section {
+  color: white;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #d39745;
+}
+
+.hljs-meta {
+  color: #557182;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-bullet,
+.hljs-subst,
+.hljs-emphasis,
+.hljs-type,
+.hljs-built_in,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #8cbbad;
+}
+
+.hljs-string,
+.hljs-symbol {
+  color: #ec7600;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion {
+  color: #818e96;
+}
+
+.hljs-selector-class {
+  color: #A082BD
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>69</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>vs</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond &lt;jason@diamond.name&gt;
+
+*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-variable {
+  color: #008000;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
+  color: #00f;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
+  color: #a31515;
+}
+
+.hljs-deletion,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta {
+  color: #2b91af;
+}
+
+.hljs-doctag {
+  color: #808080;
+}
+
+.hljs-attr {
+  color: #f00;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
+  color: #00b0e8;
+}
+
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>70</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>school-book</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+School Book style from goldblog.com.ua (c) Zaripov Yura &lt;yur4ik7@ukr.net&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 15px 0.5em 0.5em 30px;
+  font-size: 11px;
+  line-height:16px;
+  background:#f6f6ae url(./school-book.png);
+  border-top: solid 2px #d2e8b9;
+  border-bottom: solid 1px #d2e8b9;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal {
+  color:#005599;
+  font-weight:bold;
+}
+
+.hljs,
+.hljs-subst {
+  color: #3e5915;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-attribute,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-link {
+  color: #2c009f;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  color: #e60415;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-name,
+.hljs-selector-id,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>71</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>darcula</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Darcula color scheme from the JetBrains family of IDEs
+
+*/
+
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2b2b2b;
+  color: #bababa;
+}
+
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-link,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal {
+  color: #6896ba;
+}
+
+.hljs-code,
+.hljs-selector-class {
+  color: #a6e22e;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-attribute,
+.hljs-name,
+.hljs-variable {
+  color: #cb7832;
+}
+
+.hljs-params {
+  color: #b9b9b9;
+}
+
+.hljs-string {
+  color: #6a8759;
+}
+
+.hljs-subst,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-symbol,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition {
+  color: #e0c46c;
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-meta {
+  color: #7f7f7f;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>72</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>agate</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*!
+ * Agate by Taufik Nurrohman &lt;https://github.com/taufik-nurrohman&gt;
+ * ---------------------------------------------------------------
+ *
+ * #ade5fc
+ * #a2fca2
+ * #c6b4f0
+ * #d36363
+ * #fcc28c
+ * #fc9b9b
+ * #ffa
+ * #fff
+ * #333
+ * #62c8f3
+ * #888
+ *
+ */
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #333;
+  color: white;
+}
+
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-code,
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-tag {
+  color: #62c8f3;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #ade5fc;
+}
+
+.hljs-string,
+.hljs-bullet {
+  color: #a2fca2;
+}
+
+.hljs-type,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-quote,
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #ffa;
+}
+
+.hljs-number,
+.hljs-symbol,
+.hljs-bullet {
+  color: #d36363;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal {
+  color: #fcc28c;
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-code {
+  color: #888;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #c6b4f0;
+}
+
+.hljs-meta {
+  color: #fc9b9b;
+}
+
+.hljs-deletion {
+  background-color: #fc9b9b;
+  color: #333;
+}
+
+.hljs-addition {
+  background-color: #a2fca2;
+  color: #333;
+}
+
+.hljs a {
+  color: inherit;
+}
+
+.hljs a:focus,
+.hljs a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>73</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atom-one-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #5c6370;
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: #c678dd;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e06c75;
+}
+
+.hljs-literal {
+  color: #56b6c2;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: #98c379;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #e6c07b;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #d19a66;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #61aeee;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>74</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-dune-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Dune Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Dune Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #7d7a68;
+}
+
+/* Atelier-Dune Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #d73737;
+}
+
+/* Atelier-Dune Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #b65611;
+}
+
+/* Atelier-Dune Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #60ac39;
+}
+
+/* Atelier-Dune Blue */
+.hljs-title,
+.hljs-section {
+  color: #6684e1;
+}
+
+/* Atelier-Dune Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #b854d4;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #fefbec;
+  color: #6e6b5e;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>75</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-cave-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Cave Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Cave Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #7e7887;
+}
+
+/* Atelier-Cave Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-regexp,
+.hljs-link,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #be4678;
+}
+
+/* Atelier-Cave Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #aa573c;
+}
+
+/* Atelier-Cave Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #2a9292;
+}
+
+/* Atelier-Cave Blue */
+.hljs-title,
+.hljs-section {
+  color: #576ddb;
+}
+
+/* Atelier-Cave Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #955ae7;
+}
+
+.hljs-deletion,
+.hljs-addition {
+  color: #19171c;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #be4678;
+}
+
+.hljs-addition {
+  background-color: #2a9292;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #19171c;
+  color: #8b8792;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>76</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>pojoaque</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Pojoaque Style by Jason Tate
+http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html
+Based on Solarized Style from http://ethanschoonover.com/solarized
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #dccf8f;
+  background: url(./pojoaque.jpg) repeat scroll left top #181914;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #586e75;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-addition {
+  color: #b64926;
+}
+
+.hljs-number,
+.hljs-string,
+.hljs-doctag,
+.hljs-regexp {
+  color: #468966;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-name {
+  color: #ffb03b;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type,
+.hljs-tag {
+  color: #b58900;
+}
+
+.hljs-attribute {
+  color: #b89859;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-subst,
+.hljs-meta {
+  color: #cb4b16;
+}
+
+.hljs-deletion {
+  color: #dc322f;
+}
+
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #d3a60c;
+}
+
+.hljs-formula {
+  background: #073642;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>77</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>darkula</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+  Deprecated due to a typo in the name and left here for compatibility purpose only.
+  Please use darcula.css instead.
+*/
+
+@import url('darcula.css');
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>78</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>monokai-sublime</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #23241f;
+}
+
+.hljs,
+.hljs-tag,
+.hljs-subst {
+  color: #f8f8f2;
+}
+
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-link {
+  color: #ae81ff;
+}
+
+.hljs-code,
+.hljs-title,
+.hljs-section,
+.hljs-selector-class {
+  color: #a6e22e;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-attr {
+  color: #f92672;
+}
+
+.hljs-symbol,
+.hljs-attribute {
+  color: #66d9ef;
+}
+
+.hljs-params,
+.hljs-class .hljs-title {
+  color: #f8f8f2;
+}
+
+.hljs-string,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-variable {
+  color: #e6db74;
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-meta {
+  color: #75715e;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>79</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-lakeside-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Lakeside Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Lakeside Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #7195a8;
+}
+
+/* Atelier-Lakeside Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #d22d72;
+}
+
+/* Atelier-Lakeside Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #935c25;
+}
+
+/* Atelier-Lakeside Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #568c3b;
+}
+
+/* Atelier-Lakeside Blue */
+.hljs-title,
+.hljs-section {
+  color: #257fad;
+}
+
+/* Atelier-Lakeside Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #6b6bb8;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #161b1d;
+  color: #7ea2b4;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>80</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>qtcreator_dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Qt Creator dark color scheme
+
+*/
+
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #000000;
+}
+
+.hljs,
+.hljs-subst,
+.hljs-tag,
+.hljs-title {
+  color: #aaaaaa;
+}
+
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal {
+  color: #ff55ff;
+}
+
+.hljs-code
+.hljs-selector-class {
+  color: #aaaaff;
+}
+
+.hljs-emphasis,
+.hljs-stronge,
+.hljs-type {
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-function,
+.hljs-section,
+.hljs-symbol,
+.hljs-name {
+  color: #ffff55;
+}
+
+.hljs-attribute {
+  color: #ff5555;
+}
+
+.hljs-variable,
+.hljs-params,
+.hljs-class .hljs-title {
+  color: #8888ff;
+}
+
+.hljs-string,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition,
+.hljs-link {
+  color: #ff55ff;
+}
+
+.hljs-comment,
+.hljs-meta,
+.hljs-deletion {
+  color: #55ffff;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>81</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-savanna-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Savanna Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Savanna Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #78877d;
+}
+
+/* Atelier-Savanna Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #b16139;
+}
+
+/* Atelier-Savanna Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #9f713c;
+}
+
+/* Atelier-Savanna Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #489963;
+}
+
+/* Atelier-Savanna Blue */
+.hljs-title,
+.hljs-section {
+  color: #478c90;
+}
+
+/* Atelier-Savanna Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #55859b;
+}
+
+.hljs-deletion,
+.hljs-addition {
+  color: #171c19;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #b16139;
+}
+
+.hljs-addition {
+  background-color: #489963;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #171c19;
+  color: #87928a;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>82</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-heath-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Heath Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Heath Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #9e8f9e;
+}
+
+/* Atelier-Heath Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #ca402b;
+}
+
+/* Atelier-Heath Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #a65926;
+}
+
+/* Atelier-Heath Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #918b3b;
+}
+
+/* Atelier-Heath Blue */
+.hljs-title,
+.hljs-section {
+  color: #516aec;
+}
+
+/* Atelier-Heath Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #7b59c0;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #1b181b;
+  color: #ab9bab;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>83</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atom-one-dark-reasonable</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Atom One Dark With support for ReasonML by Gidi Morris, based off work by Daniel Gamage
+
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34;
+}
+.hljs-keyword, .hljs-operator {
+  color: #F92672;
+}
+.hljs-pattern-match {
+  color: #F92672;
+}
+.hljs-pattern-match .hljs-constructor {
+  color: #61aeee;
+}
+.hljs-function {
+  color: #61aeee;
+}
+.hljs-function .hljs-params {
+  color: #A6E22E;
+}
+.hljs-function .hljs-params .hljs-typing {
+  color: #FD971F;
+}
+.hljs-module-access .hljs-module {
+  color: #7e57c2;
+}
+.hljs-constructor {
+  color: #e2b93d;
+}
+.hljs-constructor .hljs-string {
+  color: #9CCC65;
+}
+.hljs-comment, .hljs-quote {
+  color: #b18eb1;
+  font-style: italic;
+}
+.hljs-doctag, .hljs-formula {
+  color: #c678dd;
+}
+.hljs-section, .hljs-name, .hljs-selector-tag, .hljs-deletion, .hljs-subst {
+  color: #e06c75;
+}
+.hljs-literal {
+  color: #56b6c2;
+}
+.hljs-string, .hljs-regexp, .hljs-addition, .hljs-attribute, .hljs-meta-string {
+  color: #98c379;
+}
+.hljs-built_in, .hljs-class .hljs-title {
+  color: #e6c07b;
+}
+.hljs-attr, .hljs-variable, .hljs-template-variable, .hljs-type, .hljs-selector-class, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-number {
+  color: #d19a66;
+}
+.hljs-symbol, .hljs-bullet, .hljs-link, .hljs-meta, .hljs-selector-id, .hljs-title {
+  color: #61aeee;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}
+.hljs-link {
+  text-decoration: underline;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>84</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>brown-paper</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Brown Paper style from goldblog.com.ua (c) Zaripov Yura &lt;yur4ik7@ukr.net&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background:#b7a68e url(./brown-papersq.png);
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal {
+  color:#005599;
+  font-weight:bold;
+}
+
+.hljs,
+.hljs-subst {
+  color: #363c69;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-built_in,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-link,
+.hljs-name {
+  color: #2c009f;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-meta,
+.hljs-deletion {
+  color: #802022;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>85</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>paraiso-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+    Paraíso (dark)
+    Created by Jan T. Sott (http://github.com/idleberg)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+*/
+
+/* Paraíso Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #8d8687;
+}
+
+/* Paraíso Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-link,
+.hljs-meta {
+  color: #ef6155;
+}
+
+/* Paraíso Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-deletion {
+  color: #f99b15;
+}
+
+/* Paraíso Yellow */
+.hljs-title,
+.hljs-section,
+.hljs-attribute {
+  color: #fec418;
+}
+
+/* Paraíso Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #48b685;
+}
+
+/* Paraíso Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #815ba4;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #2f1e2e;
+  color: #a39e9b;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>86</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>atelier-forest-dark</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/* Base16 Atelier Forest Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Forest Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #9c9491;
+}
+
+/* Atelier-Forest Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #f22c40;
+}
+
+/* Atelier-Forest Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #df5320;
+}
+
+/* Atelier-Forest Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #7b9726;
+}
+
+/* Atelier-Forest Blue */
+.hljs-title,
+.hljs-section {
+  color: #407ee7;
+}
+
+/* Atelier-Forest Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #6666ea;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #1b1918;
+  color: #a8a19f;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>87</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>color-brewer</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Colorbrewer theme
+Original: https://github.com/mbostock/colorbrewer-theme (c) Mike Bostock &lt;mike@ocks.org&gt;
+Ported by Fabrício Tavares de Oliveira
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
+}
+
+.hljs,
+.hljs-subst {
+  color: #000;
+}
+
+.hljs-string,
+.hljs-meta,
+.hljs-symbol,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition {
+  color: #756bb1;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #636363;
+}
+
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-bullet,
+.hljs-link {
+  color: #31a354;
+}
+
+.hljs-deletion,
+.hljs-variable {
+  color: #88f;
+}
+
+
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-doctag,
+.hljs-type,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-strong {
+  color: #3182bd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-attribute {
+  color: #e6550d;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>88</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>dracula</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Dracula Theme v1.2.0
+
+https://github.com/zenorocha/dracula-theme
+
+Copyright 2015, All rights reserved
+
+Code licensed under the MIT license
+http://zenorocha.mit-license.org
+
+@author Éverton Ribeiro &lt;nuxlli@gmail.com&gt;
+@author Zeno Rocha &lt;hi@zenorocha.com&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #282a36;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link {
+  color: #8be9fd;
+}
+
+.hljs-function .hljs-keyword {
+  color: #ff79c6;
+}
+
+.hljs,
+.hljs-subst {
+  color: #f8f8f2;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-name,
+.hljs-type,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #f1fa8c;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  color: #6272a4;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>89</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>github</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+github.com style (c) Vasily Polovnyov &lt;vast@whiteants.net&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>90</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>mono-blue</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+  Five-color theme from a single blue hue.
+*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #eaeef3;
+  color: #00193a;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-comment {
+  color: #738191;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-addition,
+.hljs-tag,
+.hljs-quote,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #0048ab;
+}
+
+.hljs-meta,
+.hljs-subst,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-attribute,
+.hljs-deletion,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-bullet {
+  color: #4c81c9;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>91</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>arduino-light</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/*
+
+Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #FFFFFF;
+}
+
+.hljs,
+.hljs-subst {
+  color: #434f54;
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-doctag,
+.hljs-name {
+  color: #00979D;
+}
+
+.hljs-built_in,
+.hljs-literal,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #D35400;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #00979D;
+}
+
+.hljs-type,
+.hljs-string,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #005C5F;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.hljs-comment {
+  color: rgba(149,165,166,.8);
+}
+
+.hljs-meta-keyword {
+  color: #728E00;
+}
+
+.hljs-meta {
+  color: #434f54;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-function {
+  color: #728E00;
+}
+
+.hljs-number {
+  color: #8A7B52;  
+}
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>6</defaultFormatIndex>
+	<height>92</height>
+	<vgRows>92</vgRows>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Строка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>91</beginRow>
+			<endRow>91</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<format>
+		<width>150</width>
+	</format>
+	<format>
+		<width>401</width>
+	</format>
+	<format>
+		<backColor>style:FormBackColor</backColor>
+	</format>
+	<format>
+		<height>-200</height>
+	</format>
+	<format>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+</document>
