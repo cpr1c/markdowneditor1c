@@ -11,6 +11,17 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.РМ_РедакторMarkdownПример.Form.Форма</defaultForm>
+  <attributes uuid="c9c959fe-60ca-4ae5-b8b4-8c06689b553e">
+    <name>ТекстМД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст МД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
   <forms uuid="a42a8230-5e11-11ea-a89e-e86a6452d1f2">
     <name>Форма</name>
     <synonym>

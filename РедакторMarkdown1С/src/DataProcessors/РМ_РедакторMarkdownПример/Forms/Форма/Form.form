@@ -55,8 +55,74 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>ГруппаТекстРедактирования</name>
-    <id>1</id>
+    <name>ГруппаСтраницыРедаторов</name>
+    <id>6</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаТекстРедактирования</name>
+      <id>1</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Редактор, привязанный к реквизиту формы</value>
+      </title>
+      <extendedTooltip>
+        <name>Группа1РасширеннаяПодсказка</name>
+        <id>2</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>HorizontalIfPossible</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаВторойРедакторНаФорме</name>
+      <id>8</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа второй редактор на форме(Реквзит объекта)</value>
+      </title>
+      <extendedTooltip>
+        <name>Группа1РасширеннаяПодсказка2</name>
+        <id>9</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>HorizontalIfPossible</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -64,11 +130,11 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Текст редактирования</value>
+      <value>Группа страницы редаторов</value>
     </title>
     <extendedTooltip>
-      <name>Группа1РасширеннаяПодсказка</name>
-      <id>2</id>
+      <name>Группа1РасширеннаяПодсказка1</name>
+      <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -81,13 +147,9 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <showTitle>true</showTitle>
-      <throughAlign>Auto</throughAlign>
+    <type>Pages</type>
+    <extInfo xsi:type="form:PagesGroupExtInfo">
+      <pagesRepresentation>TabsOnTop</pagesRepresentation>
       <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
