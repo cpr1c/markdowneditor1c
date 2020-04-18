@@ -70,6 +70,7 @@
   <commonPictures>CommonPicture.РМ_ПрограммныйКод</commonPictures>
   <commonPictures>CommonPicture.РМ_СписокЗадач</commonPictures>
   <commonPictures>CommonPicture.РМ_Таблица</commonPictures>
+  <commonPictures>CommonPicture.РМ_Синтаксис</commonPictures>
   <commonTemplates>CommonTemplate.РМ_КомпонентаДляРаботыСБуферомОбмена</commonTemplates>
   <commonTemplates>CommonTemplate.РМ_showdown</commonTemplates>
   <commonTemplates>CommonTemplate.РМ_highligthjs</commonTemplates>
@@ -78,5 +79,6 @@
   <commonModules>CommonModule.РМ_MarkdownКлиент</commonModules>
   <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>
   <commonModules>CommonModule.РМ_MarkdownКлиентСервер</commonModules>
+  <commonForms>CommonForm.РМ_MarkdownСинтаксис</commonForms>
   <dataProcessors>DataProcessor.РМ_РедакторMarkdownПример</dataProcessors>
 </mdclass:Configuration>
