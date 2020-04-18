@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83b36e3e-5e13-11ea-a89e-e86a6452d1f2">
-  <name>РМ_MDМаркерыСписок</name>
+  <name>РМ_МаркерыСписок</name>
   <synonym>
     <key>ru</key>
-    <value>Р м MDМаркеры список</value>
+    <value>Маркеры список</value>
   </synonym>
 </mdclass:CommonPicture>

@@ -16,8 +16,30 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Центр прикладных разработок&quot;</vendor>
-  <version>1.0.0</version>
+  <version>1.0.0.1</version>
+  <updateCatalogAddress>https://infostart.ru/public/1226053/</updateCatalogAddress>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Редактор Markdown для 1С</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Подсистема для быстрого встраивания в форму редактора языка разметки markdown </value>
+  </detailedInformation>
+  <logo/>
+  <copyright>
+    <key>ru</key>
+    <value>ООО &quot;Центр прикладных разработок&quot;</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>ООО &quot;Центр прикладных разработок&quot;</value>
+  </vendorInformationAddress>
+  <configurationInformationAddress>
+    <key>ru</key>
+    <value>https://infostart.ru/public/1226053/</value>
+  </configurationInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
@@ -33,16 +55,16 @@
   </languages>
   <subsystems>Subsystem.РМ_РедакторMarkdown</subsystems>
   <commonPictures>CommonPicture.РМ_Скрепка</commonPictures>
-  <commonPictures>CommonPicture.РМ_MDВставитьКартинкуИзБуфера</commonPictures>
+  <commonPictures>CommonPicture.РМ_ВставитьКартинкуИзБуфера</commonPictures>
   <commonPictures>CommonPicture.РМ_ЗаголовокH1</commonPictures>
   <commonPictures>CommonPicture.РМ_ЗаголовокH2</commonPictures>
   <commonPictures>CommonPicture.РМ_ЗаголовокH3</commonPictures>
-  <commonPictures>CommonPicture.РМ_MDЖирный</commonPictures>
-  <commonPictures>CommonPicture.РМ_MDЗачеркнутый</commonPictures>
-  <commonPictures>CommonPicture.РМ_MDКурсив</commonPictures>
-  <commonPictures>CommonPicture.РМ_MDМаркерыСписок</commonPictures>
-  <commonPictures>CommonPicture.РМ_MDНумерованныйСписок</commonPictures>
-  <commonPictures>CommonPicture.РМ_MDЦитата</commonPictures>
+  <commonPictures>CommonPicture.РМ_Жирный</commonPictures>
+  <commonPictures>CommonPicture.РМ_Зачеркнутый</commonPictures>
+  <commonPictures>CommonPicture.РМ_Курсив</commonPictures>
+  <commonPictures>CommonPicture.РМ_МаркерыСписок</commonPictures>
+  <commonPictures>CommonPicture.РМ_НумерованныйСписок</commonPictures>
+  <commonPictures>CommonPicture.РМ_Цитата</commonPictures>
   <commonPictures>CommonPicture.РМ_Markdown</commonPictures>
   <commonPictures>CommonPicture.РМ_Ссылка</commonPictures>
   <commonPictures>CommonPicture.РМ_ПрограммныйКод</commonPictures>

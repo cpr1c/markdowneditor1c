@@ -16,14 +16,14 @@
   <content>CommonModule.РМ_MarkdownКлиентСервер</content>
   <content>CommonTemplate.РМ_showdown</content>
   <content>CommonPicture.РМ_Скрепка</content>
-  <content>CommonPicture.РМ_MDВставитьКартинкуИзБуфера</content>
+  <content>CommonPicture.РМ_ВставитьКартинкуИзБуфера</content>
   <content>CommonPicture.РМ_ЗаголовокH1</content>
-  <content>CommonPicture.РМ_MDЖирный</content>
-  <content>CommonPicture.РМ_MDЗачеркнутый</content>
-  <content>CommonPicture.РМ_MDКурсив</content>
-  <content>CommonPicture.РМ_MDМаркерыСписок</content>
-  <content>CommonPicture.РМ_MDНумерованныйСписок</content>
-  <content>CommonPicture.РМ_MDЦитата</content>
+  <content>CommonPicture.РМ_Жирный</content>
+  <content>CommonPicture.РМ_Зачеркнутый</content>
+  <content>CommonPicture.РМ_Курсив</content>
+  <content>CommonPicture.РМ_МаркерыСписок</content>
+  <content>CommonPicture.РМ_НумерованныйСписок</content>
+  <content>CommonPicture.РМ_Цитата</content>
   <content>CommonPicture.РМ_ЗаголовокH2</content>
   <content>CommonPicture.РМ_ЗаголовокH3</content>
   <content>CommonPicture.РМ_Markdown</content>

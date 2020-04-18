@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d97949e-5e13-11ea-a89e-e86a6452d1f2">
-  <name>РМ_MDЖирный</name>
+  <name>РМ_Жирный</name>
   <synonym>
     <key>ru</key>
-    <value>Р м MDЖирный</value>
+    <value>Жирный</value>
   </synonym>
 </mdclass:CommonPicture>
