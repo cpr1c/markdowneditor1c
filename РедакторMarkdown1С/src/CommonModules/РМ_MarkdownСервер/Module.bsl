@@ -82,7 +82,7 @@
 	|div.wiki pre {
 	|  margin: 1em 1em 1em 1.6em;
 	|  padding: 8px;
-	|  background-color: #fafafa;
+//	|  background-color: #fafafa;
 	|  border: 1px solid #e2e2e2;
 	|  border-radius: 3px;
 	|  width:auto;
@@ -175,7 +175,7 @@
 	|                    container.appendChild(newdiv);
 	|                }
 	|            }
-	|  			var elems= document.getElementsByTagName('pre');
+	|  			var elems= document.getElementsByTagName('code');
 	|			
 	|			 for(var i = 0; i < elems.length; i++) {
 	|				hljs.highlightBlock(elems[i]);

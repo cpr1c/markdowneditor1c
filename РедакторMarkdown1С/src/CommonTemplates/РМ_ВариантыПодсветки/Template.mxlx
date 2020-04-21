@@ -10386,10 +10386,128 @@ Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>92</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ones	</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/**
+ * GitHub Gist Theme
+ * Author : Anthony Attard - https://github.com/AnthonyAttard
+ * Author : Louis Barranqueiro - https://github.com/LouisBarranqueiro
+ */
+
+.hljs {
+  display: block;
+  background: white;
+  padding: 0.5em;
+  color: blue;
+  overflow-x: auto;
+}
+
+.hljs-comment{
+  color: #008000;
+}
+.hljs-meta {
+  color: #963200;
+}
+
+.hljs-keyword,
+.hljs-literal{
+  color: red;
+}
+
+.hljs-number {
+  color: black;
+}
+
+.hljs-string {
+  color: black;
+}
+
+.hljs-symbol{
+  color: black;
+}
+/* .hljs-variable,
+.hljs-template-variable,
+.hljs-strong,
+.hljs-emphasis,
+.hljs-quote {
+  color: #df5000;
+} */
+
+/* .hljs-keyword,
+.hljs-selector-tag {
+  color: #d73a49;
+} */
+
+
+
+/* .hljs-symbol,
+.hljs-bullet,
+.hljs-attribute {
+  color: black;
+} */
+
+/* .hljs-section,
+.hljs-name {
+  color: #63a35c;
+} */
+
+/* .hljs-tag {
+  color: #333333;
+} */
+
+/* .hljs-title,
+.hljs-attr,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-type {
+  color: blue;
+} */
+
+/* .hljs-addition {
+  color: #55a532;
+  background-color: #eaffea;
+} */
+
+/* .hljs-deletion {
+  color: #bd2c00;
+  background-color: #ffecec;
+} */
+
+/* .hljs-link {
+  text-decoration: underline;
+} */
+
+</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>6</defaultFormatIndex>
-	<height>92</height>
-	<vgRows>92</vgRows>
+	<height>93</height>
+	<vgRows>93</vgRows>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Строка</name>
 		<area>
