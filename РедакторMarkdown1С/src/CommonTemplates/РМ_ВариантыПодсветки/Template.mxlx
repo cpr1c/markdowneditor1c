@@ -10389,13 +10389,14 @@ Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
 	<rowsItem>
 		<index>92</index>
 		<row>
+			<formatIndex>4</formatIndex>
 			<c>
 				<c>
 					<f>0</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ones	</v8:content>
+							<v8:content>ones</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -10504,10 +10505,108 @@ Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>93</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>95</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>97</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>99</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>101</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>103</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>105</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>107</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>109</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>111</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>113</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>115</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>117</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>119</index>
+		<row>
+			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>6</defaultFormatIndex>
-	<height>93</height>
-	<vgRows>93</vgRows>
+	<height>121</height>
+	<vgRows>121</vgRows>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Строка</name>
 		<area>
