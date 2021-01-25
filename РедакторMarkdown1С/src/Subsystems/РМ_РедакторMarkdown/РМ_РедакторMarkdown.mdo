@@ -14,7 +14,6 @@
   <content>CommonModule.РМ_MarkdownСервер</content>
   <content>CommonModule.РМ_MarkdownКлиент</content>
   <content>CommonModule.РМ_MarkdownКлиентСервер</content>
-  <content>CommonTemplate.РМ_showdown</content>
   <content>CommonPicture.РМ_Скрепка</content>
   <content>CommonPicture.РМ_ВставитьКартинкуИзБуфера</content>
   <content>CommonPicture.РМ_ЗаголовокH1</content>

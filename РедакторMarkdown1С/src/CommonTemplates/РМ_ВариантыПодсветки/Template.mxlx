@@ -10513,9 +10513,21 @@ Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>94</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>95</index>
 		<row>
 			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>96</index>
+		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
@@ -10527,9 +10539,21 @@ Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>98</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>99</index>
 		<row>
 			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>100</index>
+		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
@@ -10541,9 +10565,21 @@ Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>102</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>103</index>
 		<row>
 			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>104</index>
+		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
@@ -10555,9 +10591,21 @@ Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>106</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>107</index>
 		<row>
 			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>108</index>
+		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
@@ -10569,9 +10617,21 @@ Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>110</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>111</index>
 		<row>
 			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>112</index>
+		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
@@ -10583,6 +10643,12 @@ Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>114</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>115</index>
 		<row>
 			<formatIndex>4</formatIndex>
@@ -10590,9 +10656,21 @@ Arduino® Light Theme - Stefania Mellai &lt;s.mellai@arduino.cc&gt;
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>116</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>117</index>
 		<row>
 			<formatIndex>4</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>118</index>
+		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>

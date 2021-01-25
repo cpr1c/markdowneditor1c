@@ -16,7 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>ООО &quot;Центр прикладных разработок&quot;</vendor>
-  <version>1.0.0.3</version>
+  <version>1.0.0.4</version>
   <updateCatalogAddress>https://infostart.ru/public/1226053/</updateCatalogAddress>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
@@ -72,13 +72,15 @@
   <commonPictures>CommonPicture.РМ_Таблица</commonPictures>
   <commonPictures>CommonPicture.РМ_Синтаксис</commonPictures>
   <commonTemplates>CommonTemplate.РМ_КомпонентаДляРаботыСБуферомОбмена</commonTemplates>
-  <commonTemplates>CommonTemplate.РМ_showdown</commonTemplates>
-  <commonTemplates>CommonTemplate.РМ_highligthjs</commonTemplates>
   <commonTemplates>CommonTemplate.РМ_ВариантыПодсветки</commonTemplates>
-  <commonModules>CommonModule.РМ_БуферОбменаКлиент</commonModules>
+  <commonTemplates>CommonTemplate.РМ_highligthjs</commonTemplates>
+  <commonTemplates>CommonTemplate.РМ_showdown</commonTemplates>
   <commonModules>CommonModule.РМ_MarkdownКлиент</commonModules>
-  <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>
   <commonModules>CommonModule.РМ_MarkdownКлиентСервер</commonModules>
+  <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>
+  <commonModules>CommonModule.РМ_БуферОбменаКлиент</commonModules>
+  <commonModules>CommonModule.РМ_MarkdownПереопределяемый</commonModules>
+  <commonModules>CommonModule.РМ_MarkdownКлиентПереопределяемый</commonModules>
   <commonForms>CommonForm.РМ_MarkdownСинтаксис</commonForms>
   <dataProcessors>DataProcessor.РМ_РедакторMarkdownПример</dataProcessors>
 </mdclass:Configuration>
