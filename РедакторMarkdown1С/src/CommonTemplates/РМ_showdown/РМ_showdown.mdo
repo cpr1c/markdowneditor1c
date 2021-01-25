@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41dae788-c36a-11e9-be88-64809943c784">
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2744c041-1368-4607-a250-1002abbcd27c">
   <name>РМ_showdown</name>
   <synonym>
     <key>ru</key>
     <value>Р м showdown</value>
   </synonym>
-  <templateType>BinaryData</templateType>
+  <templateType>TextDocument</templateType>
 </mdclass:CommonTemplate>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="764fceb8-6443-4579-8a66-d61fdb7aa08d">
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b55a977-b15a-4475-8a28-ea893f049785">
   <name>РМ_highligthjs</name>
   <synonym>
     <key>ru</key>
     <value>Р м highligthjs</value>
   </synonym>
-  <templateType>BinaryData</templateType>
+  <templateType>TextDocument</templateType>
 </mdclass:CommonTemplate>
