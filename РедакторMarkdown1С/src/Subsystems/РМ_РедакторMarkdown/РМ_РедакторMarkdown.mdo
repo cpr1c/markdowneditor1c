@@ -30,4 +30,13 @@
   <content>CommonPicture.РМ_ПрограммныйКод</content>
   <content>CommonPicture.РМ_СписокЗадач</content>
   <content>CommonPicture.РМ_Таблица</content>
+  <content>CommonModule.РМ_БуферОбменаКлиент</content>
+  <content>CommonModule.РМ_MarkdownПереопределяемый</content>
+  <content>CommonModule.РМ_MarkdownКлиентПереопределяемый</content>
+  <content>CommonForm.РМ_MarkdownСинтаксис</content>
+  <content>CommonTemplate.РМ_КомпонентаДляРаботыСБуферомОбмена</content>
+  <content>CommonTemplate.РМ_ВариантыПодсветки</content>
+  <content>CommonTemplate.РМ_highligthjs</content>
+  <content>CommonTemplate.РМ_showdown</content>
+  <content>CommonPicture.РМ_Синтаксис</content>
 </mdclass:Subsystem>
